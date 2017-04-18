@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const DesignPatternTypeKey;
-extern NSString * const DesignPatternsKey;
-
 typedef NS_ENUM(NSUInteger, kDesignType) {
     kDesignTypeCreate,    //创建型
     kDesignTypeStructure, //结构型
@@ -45,7 +42,5 @@ typedef NS_ENUM(NSUInteger, kDesignType) {
  使用频率, 1-5
  */
 @property (nonatomic, assign) NSInteger useFrequency;
-
-@property (nonatomic, strong) NSArray *designPatternList;
 
 @end

@@ -10,6 +10,7 @@
 
 @interface HomeViewController : UIViewController
 
+- (NSArray *)parseDesignPatternPlistFile;
 
 @end
 

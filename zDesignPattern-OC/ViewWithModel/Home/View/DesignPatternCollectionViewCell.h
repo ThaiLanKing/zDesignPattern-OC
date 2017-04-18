@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DesignPatternViewModel.h"
 
 @interface DesignPatternCollectionViewCell : UICollectionViewCell
+
+@property (nonatomic, strong) DesignPatternViewModel *dpViewModel;
 
 @end

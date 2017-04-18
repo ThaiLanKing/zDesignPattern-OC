@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DesignPatternModel.h"
 
-@class DesignPatternModel;
+extern NSString * const DesignPatternTypeKey;
+extern NSString * const DesignPatternsKey;
 
 @interface DesignPatternViewModel : NSObject
 
@@ -16,5 +18,7 @@
 
 @property (nonatomic, copy) NSString *designPatternName;
 @property (nonatomic, copy) NSString *designPatternDescription;
+
+- (instancetype)initWithDesignPatternModel:(DesignPatternModel *)dpModel;
 
 @end

@@ -8,9 +8,6 @@
 
 #import "DesignPatternModel.h"
 
-NSString * const DesignPatternTypeKey = @"DesignPatternTypeKey";
-NSString * const DesignPatternsKey = @"DesignPatternsKey";
-
 @implementation DesignPatternModel
 
 - (instancetype)init
@@ -20,11 +17,6 @@ NSString * const DesignPatternsKey = @"DesignPatternsKey";
     
     }
     return self;
-}
-
-- (NSArray *)parseDesignPatternFile
-{
-
 }
 
 @end

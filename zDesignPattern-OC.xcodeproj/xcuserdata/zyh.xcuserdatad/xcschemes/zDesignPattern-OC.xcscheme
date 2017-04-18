@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "062E2C9C1EA5E9270040DD85"
+               BuildableName = "zDesignPattern-OCTests.xctest"
+               BlueprintName = "zDesignPattern-OCTests"
+               ReferencedContainer = "container:zDesignPattern-OC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
