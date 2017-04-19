@@ -19,6 +19,13 @@
 		06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */; };
 		06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */; };
 		06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B401EA738F500C0C534 /* DesignPatternVCFactory.m */; };
+		06446B481EA748C800C0C534 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B471EA748C800C0C534 /* Logger.m */; };
+		06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B4A1EA74BE600C0C534 /* DatabaseLogger.m */; };
+		06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B4D1EA74D6500C0C534 /* FileLogger.m */; };
+		06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B501EA74DA800C0C534 /* LoggerFactory.m */; };
+		06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B561EA74ED000C0C534 /* DataBaseLoggerFactory.m */; };
+		06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B591EA74F3200C0C534 /* FileLoggerFactory.m */; };
+		06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B5C1EA7511F00C0C534 /* FactoryMethodViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -62,6 +69,20 @@
 		06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryViewController.m; sourceTree = "<group>"; };
 		06446B3F1EA738F500C0C534 /* DesignPatternVCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternVCFactory.h; sourceTree = "<group>"; };
 		06446B401EA738F500C0C534 /* DesignPatternVCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternVCFactory.m; sourceTree = "<group>"; };
+		06446B461EA748C800C0C534 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		06446B471EA748C800C0C534 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		06446B491EA74BE600C0C534 /* DatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseLogger.h; sourceTree = "<group>"; };
+		06446B4A1EA74BE600C0C534 /* DatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLogger.m; sourceTree = "<group>"; };
+		06446B4C1EA74D6500C0C534 /* FileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLogger.h; sourceTree = "<group>"; };
+		06446B4D1EA74D6500C0C534 /* FileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLogger.m; sourceTree = "<group>"; };
+		06446B4F1EA74DA800C0C534 /* LoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerFactory.h; sourceTree = "<group>"; };
+		06446B501EA74DA800C0C534 /* LoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerFactory.m; sourceTree = "<group>"; };
+		06446B551EA74ED000C0C534 /* DataBaseLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseLoggerFactory.h; sourceTree = "<group>"; };
+		06446B561EA74ED000C0C534 /* DataBaseLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseLoggerFactory.m; sourceTree = "<group>"; };
+		06446B581EA74F3200C0C534 /* FileLoggerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoggerFactory.h; sourceTree = "<group>"; };
+		06446B591EA74F3200C0C534 /* FileLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoggerFactory.m; sourceTree = "<group>"; };
+		06446B5B1EA7511F00C0C534 /* FactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodViewController.h; sourceTree = "<group>"; };
+		06446B5C1EA7511F00C0C534 /* FactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +166,8 @@
 		06446AB31EA6FCBA00C0C534 /* 2_FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				06446B421EA7450700C0C534 /* Role_Factory */,
+				06446B441EA7450700C0C534 /* Role_Product */,
 			);
 			path = 2_FactoryMethod;
 			sourceTree = "<group>";
@@ -361,6 +384,8 @@
 		06446B0C1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446B5B1EA7511F00C0C534 /* FactoryMethodViewController.h */,
+				06446B5C1EA7511F00C0C534 /* FactoryMethodViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -695,6 +720,48 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		06446B421EA7450700C0C534 /* Role_Factory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B4F1EA74DA800C0C534 /* LoggerFactory.h */,
+				06446B501EA74DA800C0C534 /* LoggerFactory.m */,
+				06446B431EA7450700C0C534 /* Role_ConcreteFactory */,
+			);
+			path = Role_Factory;
+			sourceTree = "<group>";
+		};
+		06446B431EA7450700C0C534 /* Role_ConcreteFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B551EA74ED000C0C534 /* DataBaseLoggerFactory.h */,
+				06446B561EA74ED000C0C534 /* DataBaseLoggerFactory.m */,
+				06446B581EA74F3200C0C534 /* FileLoggerFactory.h */,
+				06446B591EA74F3200C0C534 /* FileLoggerFactory.m */,
+			);
+			path = Role_ConcreteFactory;
+			sourceTree = "<group>";
+		};
+		06446B441EA7450700C0C534 /* Role_Product */ = {
+			isa = PBXGroup;
+			children = (
+				06446B461EA748C800C0C534 /* Logger.h */,
+				06446B471EA748C800C0C534 /* Logger.m */,
+				06446B451EA7450700C0C534 /* Role_ConcreteProduct */,
+			);
+			path = Role_Product;
+			sourceTree = "<group>";
+		};
+		06446B451EA7450700C0C534 /* Role_ConcreteProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446B491EA74BE600C0C534 /* DatabaseLogger.h */,
+				06446B4A1EA74BE600C0C534 /* DatabaseLogger.m */,
+				06446B4C1EA74D6500C0C534 /* FileLogger.h */,
+				06446B4D1EA74D6500C0C534 /* FileLogger.m */,
+			);
+			path = Role_ConcreteProduct;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -932,10 +999,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
+				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
+				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
+				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
+				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
+				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
+				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
