@@ -26,6 +26,19 @@
 		06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B561EA74ED000C0C534 /* DataBaseLoggerFactory.m */; };
 		06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B591EA74F3200C0C534 /* FileLoggerFactory.m */; };
 		06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B5C1EA7511F00C0C534 /* FactoryMethodViewController.m */; };
+		06446B641EA75B9000C0C534 /* DPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B631EA75B9000C0C534 /* DPButton.m */; };
+		06446B731EA75CF300C0C534 /* DPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B6E1EA75CF300C0C534 /* DPTextField.m */; };
+		06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B721EA75CF300C0C534 /* DPComboBox.m */; };
+		06446B771EA75D2600C0C534 /* SpringButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B761EA75D2600C0C534 /* SpringButton.m */; };
+		06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B791EA75D4200C0C534 /* SummerButton.m */; };
+		06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B7C1EA75DAB00C0C534 /* SpringTextField.m */; };
+		06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B7F1EA75DBD00C0C534 /* SummerTextField.m */; };
+		06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B821EA75E5700C0C534 /* SpringComboBox.m */; };
+		06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B851EA75E6F00C0C534 /* SummerComboBox.m */; };
+		06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B881EA75F0600C0C534 /* SkinFactory.m */; };
+		06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B8B1EA762B800C0C534 /* SpringSkinFactory.m */; };
+		06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B8E1EA762CD00C0C534 /* SummerSkinFactory.m */; };
+		06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -83,6 +96,32 @@
 		06446B591EA74F3200C0C534 /* FileLoggerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLoggerFactory.m; sourceTree = "<group>"; };
 		06446B5B1EA7511F00C0C534 /* FactoryMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethodViewController.h; sourceTree = "<group>"; };
 		06446B5C1EA7511F00C0C534 /* FactoryMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodViewController.m; sourceTree = "<group>"; };
+		06446B621EA75B9000C0C534 /* DPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPButton.h; sourceTree = "<group>"; };
+		06446B631EA75B9000C0C534 /* DPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPButton.m; sourceTree = "<group>"; };
+		06446B6D1EA75CF300C0C534 /* DPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextField.h; sourceTree = "<group>"; };
+		06446B6E1EA75CF300C0C534 /* DPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextField.m; sourceTree = "<group>"; };
+		06446B711EA75CF300C0C534 /* DPComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPComboBox.h; sourceTree = "<group>"; };
+		06446B721EA75CF300C0C534 /* DPComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPComboBox.m; sourceTree = "<group>"; };
+		06446B751EA75D2600C0C534 /* SpringButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringButton.h; sourceTree = "<group>"; };
+		06446B761EA75D2600C0C534 /* SpringButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringButton.m; sourceTree = "<group>"; };
+		06446B781EA75D4200C0C534 /* SummerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerButton.h; sourceTree = "<group>"; };
+		06446B791EA75D4200C0C534 /* SummerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerButton.m; sourceTree = "<group>"; };
+		06446B7B1EA75DAB00C0C534 /* SpringTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringTextField.h; sourceTree = "<group>"; };
+		06446B7C1EA75DAB00C0C534 /* SpringTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringTextField.m; sourceTree = "<group>"; };
+		06446B7E1EA75DBD00C0C534 /* SummerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerTextField.h; sourceTree = "<group>"; };
+		06446B7F1EA75DBD00C0C534 /* SummerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerTextField.m; sourceTree = "<group>"; };
+		06446B811EA75E5700C0C534 /* SpringComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringComboBox.h; sourceTree = "<group>"; };
+		06446B821EA75E5700C0C534 /* SpringComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringComboBox.m; sourceTree = "<group>"; };
+		06446B841EA75E6F00C0C534 /* SummerComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerComboBox.h; sourceTree = "<group>"; };
+		06446B851EA75E6F00C0C534 /* SummerComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerComboBox.m; sourceTree = "<group>"; };
+		06446B871EA75F0600C0C534 /* SkinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinFactory.h; sourceTree = "<group>"; };
+		06446B881EA75F0600C0C534 /* SkinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinFactory.m; sourceTree = "<group>"; };
+		06446B8A1EA762B800C0C534 /* SpringSkinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringSkinFactory.h; sourceTree = "<group>"; };
+		06446B8B1EA762B800C0C534 /* SpringSkinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringSkinFactory.m; sourceTree = "<group>"; };
+		06446B8D1EA762CD00C0C534 /* SummerSkinFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummerSkinFactory.h; sourceTree = "<group>"; };
+		06446B8E1EA762CD00C0C534 /* SummerSkinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerSkinFactory.m; sourceTree = "<group>"; };
+		06446B901EA7649E00C0C534 /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
+		06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +214,10 @@
 		06446AB41EA6FCBA00C0C534 /* 3_AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				06446B5E1EA75ACB00C0C534 /* AbstractFactory */,
+				06446B601EA75ACB00C0C534 /* AbstractProduct */,
+				06446B6B1EA75CF300C0C534 /* AbstractProduct1 */,
+				06446B6F1EA75CF300C0C534 /* AbstractProduct2 */,
 			);
 			path = 3_AbstractFactory;
 			sourceTree = "<group>";
@@ -401,6 +444,8 @@
 		06446B0E1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446B901EA7649E00C0C534 /* AbstractFactoryViewController.h */,
+				06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -762,6 +807,90 @@
 			path = Role_ConcreteProduct;
 			sourceTree = "<group>";
 		};
+		06446B5E1EA75ACB00C0C534 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B871EA75F0600C0C534 /* SkinFactory.h */,
+				06446B881EA75F0600C0C534 /* SkinFactory.m */,
+				06446B5F1EA75ACB00C0C534 /* ConcreteFactory */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		06446B5F1EA75ACB00C0C534 /* ConcreteFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B8A1EA762B800C0C534 /* SpringSkinFactory.h */,
+				06446B8B1EA762B800C0C534 /* SpringSkinFactory.m */,
+				06446B8D1EA762CD00C0C534 /* SummerSkinFactory.h */,
+				06446B8E1EA762CD00C0C534 /* SummerSkinFactory.m */,
+			);
+			path = ConcreteFactory;
+			sourceTree = "<group>";
+		};
+		06446B601EA75ACB00C0C534 /* AbstractProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446B611EA75ACB00C0C534 /* ConcreteProduct */,
+				06446B621EA75B9000C0C534 /* DPButton.h */,
+				06446B631EA75B9000C0C534 /* DPButton.m */,
+			);
+			path = AbstractProduct;
+			sourceTree = "<group>";
+		};
+		06446B611EA75ACB00C0C534 /* ConcreteProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446B751EA75D2600C0C534 /* SpringButton.h */,
+				06446B761EA75D2600C0C534 /* SpringButton.m */,
+				06446B781EA75D4200C0C534 /* SummerButton.h */,
+				06446B791EA75D4200C0C534 /* SummerButton.m */,
+			);
+			path = ConcreteProduct;
+			sourceTree = "<group>";
+		};
+		06446B6B1EA75CF300C0C534 /* AbstractProduct1 */ = {
+			isa = PBXGroup;
+			children = (
+				06446B6C1EA75CF300C0C534 /* ConcreteProduct */,
+				06446B6D1EA75CF300C0C534 /* DPTextField.h */,
+				06446B6E1EA75CF300C0C534 /* DPTextField.m */,
+			);
+			path = AbstractProduct1;
+			sourceTree = "<group>";
+		};
+		06446B6C1EA75CF300C0C534 /* ConcreteProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446B7B1EA75DAB00C0C534 /* SpringTextField.h */,
+				06446B7C1EA75DAB00C0C534 /* SpringTextField.m */,
+				06446B7E1EA75DBD00C0C534 /* SummerTextField.h */,
+				06446B7F1EA75DBD00C0C534 /* SummerTextField.m */,
+			);
+			path = ConcreteProduct;
+			sourceTree = "<group>";
+		};
+		06446B6F1EA75CF300C0C534 /* AbstractProduct2 */ = {
+			isa = PBXGroup;
+			children = (
+				06446B701EA75CF300C0C534 /* ConcreteProduct */,
+				06446B711EA75CF300C0C534 /* DPComboBox.h */,
+				06446B721EA75CF300C0C534 /* DPComboBox.m */,
+			);
+			path = AbstractProduct2;
+			sourceTree = "<group>";
+		};
+		06446B701EA75CF300C0C534 /* ConcreteProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446B811EA75E5700C0C534 /* SpringComboBox.h */,
+				06446B821EA75E5700C0C534 /* SpringComboBox.m */,
+				06446B841EA75E6F00C0C534 /* SummerComboBox.h */,
+				06446B851EA75E6F00C0C534 /* SummerComboBox.m */,
+			);
+			path = ConcreteProduct;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1000,21 +1129,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
+				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
+				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
+				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
+				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
+				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
+				06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */,
+				06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */,
+				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
+				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
+				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
+				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
+				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
+				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,

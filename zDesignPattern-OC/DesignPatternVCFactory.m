@@ -9,6 +9,7 @@
 #import "DesignPatternVCFactory.h"
 #import "SimpleFactoryViewController.h"
 #import "FactoryMethodViewController.h"
+#import "AbstractFactoryViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -24,6 +25,9 @@
     }
     else if ([patternChineseName isEqualToString:@"工厂方法模式"]) {
         designPatternVC = [[FactoryMethodViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"抽象工厂模式"]) {
+        designPatternVC = [[AbstractFactoryViewController alloc] init];
     }
     
     if (designPatternVC) {
