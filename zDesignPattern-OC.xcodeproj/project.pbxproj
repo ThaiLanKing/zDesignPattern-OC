@@ -12,6 +12,12 @@
 		062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E2C8C1EA49E760040DD85 /* DesignPatternCollectionViewCell.m */; };
 		062E2CA01EA5E9270040DD85 /* zDesignPattern_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E2C9F1EA5E9270040DD85 /* zDesignPattern_OCTests.m */; };
 		062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E2CA81EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m */; };
+		06446ACF1EA712D600C0C534 /* Chart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446ACE1EA712D600C0C534 /* Chart.m */; };
+		06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446AD11EA7138200C0C534 /* HistogramChart.m */; };
+		06446AD51EA713E100C0C534 /* PieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446AD41EA713E100C0C534 /* PieChart.m */; };
+		06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446AD71EA714B300C0C534 /* ChartFactory.m */; };
+		06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */; };
+		06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -41,6 +47,18 @@
 		062E2CA11EA5E9270040DD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		062E2CA71EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternHeaderCollectionReusableView.h; sourceTree = "<group>"; };
 		062E2CA81EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		06446ACD1EA712D600C0C534 /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.h; sourceTree = "<group>"; };
+		06446ACE1EA712D600C0C534 /* Chart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart.m; sourceTree = "<group>"; };
+		06446AD01EA7138200C0C534 /* HistogramChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistogramChart.h; sourceTree = "<group>"; };
+		06446AD11EA7138200C0C534 /* HistogramChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistogramChart.m; sourceTree = "<group>"; };
+		06446AD31EA713E100C0C534 /* PieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart.h; sourceTree = "<group>"; };
+		06446AD41EA713E100C0C534 /* PieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart.m; sourceTree = "<group>"; };
+		06446AD61EA714B300C0C534 /* ChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartFactory.h; sourceTree = "<group>"; };
+		06446AD71EA714B300C0C534 /* ChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartFactory.m; sourceTree = "<group>"; };
+		06446B391EA7332500C0C534 /* zDesignPatternBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zDesignPatternBaseViewController.h; sourceTree = "<group>"; };
+		06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDesignPatternBaseViewController.m; sourceTree = "<group>"; };
+		06446B3C1EA7336A00C0C534 /* SimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryViewController.h; sourceTree = "<group>"; };
+		06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +99,599 @@
 			path = "zDesignPattern-OCTests";
 			sourceTree = "<group>";
 		};
+		06446AB11EA6F09200C0C534 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				06446AB21EA6FCBA00C0C534 /* 1_SimpleFactory */,
+				06446AB31EA6FCBA00C0C534 /* 2_FactoryMethod */,
+				06446AB41EA6FCBA00C0C534 /* 3_AbstractFactory */,
+				06446AB51EA6FCBA00C0C534 /* 4_Singleton */,
+				06446AB61EA6FCBA00C0C534 /* 5_Prototype */,
+				06446AB71EA6FCBA00C0C534 /* 6_Builder */,
+				06446AB81EA6FCBA00C0C534 /* 7_Adapter */,
+				06446AB91EA6FCBA00C0C534 /* 8_Bridge */,
+				06446ABA1EA6FCBA00C0C534 /* 9_Composite */,
+				06446ABB1EA6FCBA00C0C534 /* 10_Decorator */,
+				06446ABC1EA6FCBA00C0C534 /* 11_Facade */,
+				06446ABD1EA6FCBA00C0C534 /* 12_Flyweight */,
+				06446ABE1EA6FCBA00C0C534 /* 13_Proxy */,
+				06446ABF1EA6FCBA00C0C534 /* 14_ChainOfResponsibility */,
+				06446AC01EA6FCBA00C0C534 /* 15_Command */,
+				06446AC11EA6FCBA00C0C534 /* 16_Interpreter */,
+				06446AC21EA6FCBA00C0C534 /* 17_Iterator */,
+				06446AC31EA6FCBA00C0C534 /* 18_Mediator */,
+				06446AC41EA6FCBA00C0C534 /* 19_Memento */,
+				06446AC51EA6FCBA00C0C534 /* 20_Observer */,
+				06446AC61EA6FCBA00C0C534 /* 21_State */,
+				06446AC71EA6FCBA00C0C534 /* 22_Strategy */,
+				06446AC81EA6FCBA00C0C534 /* 23_TemplateMethod */,
+				06446AC91EA6FCBA00C0C534 /* 24_Visitor */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		06446AB21EA6FCBA00C0C534 /* 1_SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446ACA1EA7116900C0C534 /* Role_Factory */,
+				06446ACB1EA7116900C0C534 /* Role_Product */,
+			);
+			path = 1_SimpleFactory;
+			sourceTree = "<group>";
+		};
+		06446AB31EA6FCBA00C0C534 /* 2_FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 2_FactoryMethod;
+			sourceTree = "<group>";
+		};
+		06446AB41EA6FCBA00C0C534 /* 3_AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3_AbstractFactory;
+			sourceTree = "<group>";
+		};
+		06446AB51EA6FCBA00C0C534 /* 4_Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4_Singleton;
+			sourceTree = "<group>";
+		};
+		06446AB61EA6FCBA00C0C534 /* 5_Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 5_Prototype;
+			sourceTree = "<group>";
+		};
+		06446AB71EA6FCBA00C0C534 /* 6_Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 6_Builder;
+			sourceTree = "<group>";
+		};
+		06446AB81EA6FCBA00C0C534 /* 7_Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 7_Adapter;
+			sourceTree = "<group>";
+		};
+		06446AB91EA6FCBA00C0C534 /* 8_Bridge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 8_Bridge;
+			sourceTree = "<group>";
+		};
+		06446ABA1EA6FCBA00C0C534 /* 9_Composite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 9_Composite;
+			sourceTree = "<group>";
+		};
+		06446ABB1EA6FCBA00C0C534 /* 10_Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 10_Decorator;
+			sourceTree = "<group>";
+		};
+		06446ABC1EA6FCBA00C0C534 /* 11_Facade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 11_Facade;
+			sourceTree = "<group>";
+		};
+		06446ABD1EA6FCBA00C0C534 /* 12_Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 12_Flyweight;
+			sourceTree = "<group>";
+		};
+		06446ABE1EA6FCBA00C0C534 /* 13_Proxy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 13_Proxy;
+			sourceTree = "<group>";
+		};
+		06446ABF1EA6FCBA00C0C534 /* 14_ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 14_ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		06446AC01EA6FCBA00C0C534 /* 15_Command */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 15_Command;
+			sourceTree = "<group>";
+		};
+		06446AC11EA6FCBA00C0C534 /* 16_Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 16_Interpreter;
+			sourceTree = "<group>";
+		};
+		06446AC21EA6FCBA00C0C534 /* 17_Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 17_Iterator;
+			sourceTree = "<group>";
+		};
+		06446AC31EA6FCBA00C0C534 /* 18_Mediator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 18_Mediator;
+			sourceTree = "<group>";
+		};
+		06446AC41EA6FCBA00C0C534 /* 19_Memento */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 19_Memento;
+			sourceTree = "<group>";
+		};
+		06446AC51EA6FCBA00C0C534 /* 20_Observer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 20_Observer;
+			sourceTree = "<group>";
+		};
+		06446AC61EA6FCBA00C0C534 /* 21_State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 21_State;
+			sourceTree = "<group>";
+		};
+		06446AC71EA6FCBA00C0C534 /* 22_Strategy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 22_Strategy;
+			sourceTree = "<group>";
+		};
+		06446AC81EA6FCBA00C0C534 /* 23_TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 23_TemplateMethod;
+			sourceTree = "<group>";
+		};
+		06446AC91EA6FCBA00C0C534 /* 24_Visitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 24_Visitor;
+			sourceTree = "<group>";
+		};
+		06446ACA1EA7116900C0C534 /* Role_Factory */ = {
+			isa = PBXGroup;
+			children = (
+				06446AD61EA714B300C0C534 /* ChartFactory.h */,
+				06446AD71EA714B300C0C534 /* ChartFactory.m */,
+			);
+			path = Role_Factory;
+			sourceTree = "<group>";
+		};
+		06446ACB1EA7116900C0C534 /* Role_Product */ = {
+			isa = PBXGroup;
+			children = (
+				06446ACD1EA712D600C0C534 /* Chart.h */,
+				06446ACE1EA712D600C0C534 /* Chart.m */,
+				06446ACC1EA7116900C0C534 /* Role_ConcreteProduct */,
+			);
+			path = Role_Product;
+			sourceTree = "<group>";
+		};
+		06446ACC1EA7116900C0C534 /* Role_ConcreteProduct */ = {
+			isa = PBXGroup;
+			children = (
+				06446AD01EA7138200C0C534 /* HistogramChart.h */,
+				06446AD11EA7138200C0C534 /* HistogramChart.m */,
+				06446AD31EA713E100C0C534 /* PieChart.h */,
+				06446AD41EA713E100C0C534 /* PieChart.m */,
+			);
+			path = Role_ConcreteProduct;
+			sourceTree = "<group>";
+		};
+		06446B091EA732F900C0C534 /* 1_SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B0A1EA732F900C0C534 /* ViewController */,
+			);
+			path = 1_SimpleFactory;
+			sourceTree = "<group>";
+		};
+		06446B0A1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06446B3C1EA7336A00C0C534 /* SimpleFactoryViewController.h */,
+				06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B0B1EA732F900C0C534 /* 2_FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				06446B0C1EA732F900C0C534 /* ViewController */,
+			);
+			path = 2_FactoryMethod;
+			sourceTree = "<group>";
+		};
+		06446B0C1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B0D1EA732F900C0C534 /* 3_AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446B0E1EA732F900C0C534 /* ViewController */,
+			);
+			path = 3_AbstractFactory;
+			sourceTree = "<group>";
+		};
+		06446B0E1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B0F1EA732F900C0C534 /* 4_Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				06446B101EA732F900C0C534 /* ViewController */,
+			);
+			path = 4_Singleton;
+			sourceTree = "<group>";
+		};
+		06446B101EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B111EA732F900C0C534 /* 5_Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				06446B121EA732F900C0C534 /* ViewController */,
+			);
+			path = 5_Prototype;
+			sourceTree = "<group>";
+		};
+		06446B121EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B131EA732F900C0C534 /* 6_Builder */ = {
+			isa = PBXGroup;
+			children = (
+				06446B141EA732F900C0C534 /* ViewController */,
+			);
+			path = 6_Builder;
+			sourceTree = "<group>";
+		};
+		06446B141EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B151EA732F900C0C534 /* 7_Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				06446B161EA732F900C0C534 /* ViewController */,
+			);
+			path = 7_Adapter;
+			sourceTree = "<group>";
+		};
+		06446B161EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B171EA732F900C0C534 /* 8_Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				06446B181EA732F900C0C534 /* ViewController */,
+			);
+			path = 8_Bridge;
+			sourceTree = "<group>";
+		};
+		06446B181EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B191EA732F900C0C534 /* 9_Composite */ = {
+			isa = PBXGroup;
+			children = (
+				06446B1A1EA732F900C0C534 /* ViewController */,
+			);
+			path = 9_Composite;
+			sourceTree = "<group>";
+		};
+		06446B1A1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B1B1EA732F900C0C534 /* 10_Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				06446B1C1EA732F900C0C534 /* ViewController */,
+			);
+			path = 10_Decorator;
+			sourceTree = "<group>";
+		};
+		06446B1C1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B1D1EA732F900C0C534 /* 11_Facade */ = {
+			isa = PBXGroup;
+			children = (
+				06446B1E1EA732F900C0C534 /* ViewController */,
+			);
+			path = 11_Facade;
+			sourceTree = "<group>";
+		};
+		06446B1E1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B1F1EA732F900C0C534 /* 12_Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				06446B201EA732F900C0C534 /* ViewController */,
+			);
+			path = 12_Flyweight;
+			sourceTree = "<group>";
+		};
+		06446B201EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B211EA732F900C0C534 /* 13_Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				06446B221EA732F900C0C534 /* ViewController */,
+			);
+			path = 13_Proxy;
+			sourceTree = "<group>";
+		};
+		06446B221EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B231EA732F900C0C534 /* 14_ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				06446B241EA732F900C0C534 /* ViewController */,
+			);
+			path = 14_ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		06446B241EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B251EA732F900C0C534 /* 15_Command */ = {
+			isa = PBXGroup;
+			children = (
+				06446B261EA732F900C0C534 /* ViewController */,
+			);
+			path = 15_Command;
+			sourceTree = "<group>";
+		};
+		06446B261EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B271EA732F900C0C534 /* 16_Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				06446B281EA732F900C0C534 /* ViewController */,
+			);
+			path = 16_Interpreter;
+			sourceTree = "<group>";
+		};
+		06446B281EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B291EA732F900C0C534 /* 17_Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				06446B2A1EA732F900C0C534 /* ViewController */,
+			);
+			path = 17_Iterator;
+			sourceTree = "<group>";
+		};
+		06446B2A1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B2B1EA732F900C0C534 /* 18_Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				06446B2C1EA732F900C0C534 /* ViewController */,
+			);
+			path = 18_Mediator;
+			sourceTree = "<group>";
+		};
+		06446B2C1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B2D1EA732F900C0C534 /* 19_Memento */ = {
+			isa = PBXGroup;
+			children = (
+				06446B2E1EA732F900C0C534 /* ViewController */,
+			);
+			path = 19_Memento;
+			sourceTree = "<group>";
+		};
+		06446B2E1EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B2F1EA732F900C0C534 /* 20_Observer */ = {
+			isa = PBXGroup;
+			children = (
+				06446B301EA732F900C0C534 /* ViewController */,
+			);
+			path = 20_Observer;
+			sourceTree = "<group>";
+		};
+		06446B301EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B311EA732F900C0C534 /* 21_State */ = {
+			isa = PBXGroup;
+			children = (
+				06446B321EA732F900C0C534 /* ViewController */,
+			);
+			path = 21_State;
+			sourceTree = "<group>";
+		};
+		06446B321EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B331EA732F900C0C534 /* 22_Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				06446B341EA732F900C0C534 /* ViewController */,
+			);
+			path = 22_Strategy;
+			sourceTree = "<group>";
+		};
+		06446B341EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B351EA732F900C0C534 /* 23_TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				06446B361EA732F900C0C534 /* ViewController */,
+			);
+			path = 23_TemplateMethod;
+			sourceTree = "<group>";
+		};
+		06446B361EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06446B371EA732F900C0C534 /* 24_Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				06446B381EA732F900C0C534 /* ViewController */,
+			);
+			path = 24_Visitor;
+			sourceTree = "<group>";
+		};
+		06446B381EA732F900C0C534 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +714,11 @@
 			isa = PBXGroup;
 			children = (
 				06A7EAE91E9A3CD10054D69D /* ViewWithModel */,
+				06446AB11EA6F09200C0C534 /* DesignPatterns */,
 				06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */,
 				06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */,
+				06446B391EA7332500C0C534 /* zDesignPatternBaseViewController.h */,
+				06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */,
 				06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */,
 				06A7EAE01E9A3B5D0054D69D /* LaunchScreen.storyboard */,
 				06A7EAE31E9A3B5D0054D69D /* Info.plist */,
@@ -125,6 +739,30 @@
 			isa = PBXGroup;
 			children = (
 				06A7EAF11E9B126F0054D69D /* Home */,
+				06446B091EA732F900C0C534 /* 1_SimpleFactory */,
+				06446B0B1EA732F900C0C534 /* 2_FactoryMethod */,
+				06446B0D1EA732F900C0C534 /* 3_AbstractFactory */,
+				06446B0F1EA732F900C0C534 /* 4_Singleton */,
+				06446B111EA732F900C0C534 /* 5_Prototype */,
+				06446B131EA732F900C0C534 /* 6_Builder */,
+				06446B151EA732F900C0C534 /* 7_Adapter */,
+				06446B171EA732F900C0C534 /* 8_Bridge */,
+				06446B191EA732F900C0C534 /* 9_Composite */,
+				06446B1B1EA732F900C0C534 /* 10_Decorator */,
+				06446B1D1EA732F900C0C534 /* 11_Facade */,
+				06446B1F1EA732F900C0C534 /* 12_Flyweight */,
+				06446B211EA732F900C0C534 /* 13_Proxy */,
+				06446B231EA732F900C0C534 /* 14_ChainOfResponsibility */,
+				06446B251EA732F900C0C534 /* 15_Command */,
+				06446B271EA732F900C0C534 /* 16_Interpreter */,
+				06446B291EA732F900C0C534 /* 17_Iterator */,
+				06446B2B1EA732F900C0C534 /* 18_Mediator */,
+				06446B2D1EA732F900C0C534 /* 19_Memento */,
+				06446B2F1EA732F900C0C534 /* 20_Observer */,
+				06446B311EA732F900C0C534 /* 21_State */,
+				06446B331EA732F900C0C534 /* 22_Strategy */,
+				06446B351EA732F900C0C534 /* 23_TemplateMethod */,
+				06446B371EA732F900C0C534 /* 24_Visitor */,
 			);
 			path = ViewWithModel;
 			sourceTree = "<group>";
@@ -291,11 +929,17 @@
 			files = (
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
+				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
+				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
+				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
+				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
+				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
+				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +1109,7 @@
 				062E2CA61EA5E9270040DD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06A7EACA1E9A3B5D0054D69D /* Build configuration list for PBXProject "zDesignPattern-OC" */ = {
 			isa = XCConfigurationList;

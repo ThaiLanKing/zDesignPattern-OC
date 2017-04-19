@@ -11,6 +11,8 @@
 #import "DesignPatternCollectionViewCell.h"
 #import "DesignPatternHeaderCollectionReusableView.h"
 
+#import "SimpleFactoryViewController.h"
+
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
 
@@ -124,7 +126,13 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-
+    DesignPatternViewModel *viewModel = self.designPatternList[indexPath.section][DesignPatternsKey][indexPath.row];
+    DesignPatternModel *designPatternModel = viewModel.designPatternModel;
+    if ([designPatternModel.patternChineseName isEqualToString:@"简单工厂模式"]) {
+        SimpleFactoryViewController *vc = [[SimpleFactoryViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    
+    }
 }
 
 #pragma mark - 
