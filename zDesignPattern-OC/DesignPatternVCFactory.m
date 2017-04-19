@@ -10,6 +10,7 @@
 #import "SimpleFactoryViewController.h"
 #import "FactoryMethodViewController.h"
 #import "AbstractFactoryViewController.h"
+#import "SingletonViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -28,6 +29,9 @@
     }
     else if ([patternChineseName isEqualToString:@"抽象工厂模式"]) {
         designPatternVC = [[AbstractFactoryViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"单例模式"]) {
+        designPatternVC = [[SingletonViewController alloc] init];
     }
     
     if (designPatternVC) {

@@ -39,6 +39,8 @@
 		06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B8B1EA762B800C0C534 /* SpringSkinFactory.m */; };
 		06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B8E1EA762CD00C0C534 /* SummerSkinFactory.m */; };
 		06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */; };
+		06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B951EA7699900C0C534 /* LoadBalancer.m */; };
+		06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B981EA76BCD00C0C534 /* SingletonViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -122,6 +124,10 @@
 		06446B8E1EA762CD00C0C534 /* SummerSkinFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummerSkinFactory.m; sourceTree = "<group>"; };
 		06446B901EA7649E00C0C534 /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
 		06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		06446B941EA7699900C0C534 /* LoadBalancer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadBalancer.h; sourceTree = "<group>"; };
+		06446B951EA7699900C0C534 /* LoadBalancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadBalancer.m; sourceTree = "<group>"; };
+		06446B971EA76BCD00C0C534 /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		06446B981EA76BCD00C0C534 /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -225,6 +231,7 @@
 		06446AB51EA6FCBA00C0C534 /* 4_Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				06446B931EA7695B00C0C534 /* Singleton */,
 			);
 			path = 4_Singleton;
 			sourceTree = "<group>";
@@ -461,6 +468,8 @@
 		06446B101EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446B971EA76BCD00C0C534 /* SingletonViewController.h */,
+				06446B981EA76BCD00C0C534 /* SingletonViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -891,6 +900,15 @@
 			path = ConcreteProduct;
 			sourceTree = "<group>";
 		};
+		06446B931EA7695B00C0C534 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				06446B941EA7699900C0C534 /* LoadBalancer.h */,
+				06446B951EA7699900C0C534 /* LoadBalancer.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1153,10 +1171,12 @@
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
+				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
+				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,

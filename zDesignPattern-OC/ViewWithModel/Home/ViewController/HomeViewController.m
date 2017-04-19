@@ -129,6 +129,11 @@
     DesignPatternModel *designPatternModel = viewModel.designPatternModel;
     zDesignPatternBaseViewController *designPatternVC = [DesignPatternVCFactory designPatternViewControllerNamed:designPatternModel.patternChineseName];
     if (!designPatternVC) {
+        NSString *msg = [NSString stringWithFormat:@"尚未实现%@", designPatternModel.patternChineseName];
+        UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"提示" message:msg preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
+        [alertVC addAction:okAction];
+        [self presentViewController:alertVC animated:YES completion:nil];
         return;
     }
     [designPatternVC testDesignPattern];
