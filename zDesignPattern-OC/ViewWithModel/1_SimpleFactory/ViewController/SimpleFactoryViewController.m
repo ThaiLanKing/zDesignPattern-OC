@@ -17,13 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"简单工厂模式";
-    
-    Chart *chart = [ChartFactory chartOfType:kChartTypeHistogram];
-    [chart display];
-    
-    chart = [ChartFactory chartOfType:kChartTypePie];
-    [chart display];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,5 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)testDesignPattern
+{
+    Chart *chart = [ChartFactory chartOfType:kChartTypeHistogram];
+    [chart display];
+    
+    chart = [ChartFactory chartOfType:kChartTypePie];
+    [chart display];
+}
 
 @end

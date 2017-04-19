@@ -10,4 +10,6 @@
 
 @interface zDesignPatternBaseViewController : UIViewController
 
+- (void)testDesignPattern;
+
 @end

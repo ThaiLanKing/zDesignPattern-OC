@@ -18,6 +18,7 @@
 		06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446AD71EA714B300C0C534 /* ChartFactory.m */; };
 		06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */; };
 		06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */; };
+		06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B401EA738F500C0C534 /* DesignPatternVCFactory.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -59,6 +60,8 @@
 		06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zDesignPatternBaseViewController.m; sourceTree = "<group>"; };
 		06446B3C1EA7336A00C0C534 /* SimpleFactoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryViewController.h; sourceTree = "<group>"; };
 		06446B3D1EA7336A00C0C534 /* SimpleFactoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryViewController.m; sourceTree = "<group>"; };
+		06446B3F1EA738F500C0C534 /* DesignPatternVCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignPatternVCFactory.h; sourceTree = "<group>"; };
+		06446B401EA738F500C0C534 /* DesignPatternVCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignPatternVCFactory.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -719,6 +722,8 @@
 				06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */,
 				06446B391EA7332500C0C534 /* zDesignPatternBaseViewController.h */,
 				06446B3A1EA7332500C0C534 /* zDesignPatternBaseViewController.m */,
+				06446B3F1EA738F500C0C534 /* DesignPatternVCFactory.h */,
+				06446B401EA738F500C0C534 /* DesignPatternVCFactory.m */,
 				06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */,
 				06A7EAE01E9A3B5D0054D69D /* LaunchScreen.storyboard */,
 				06A7EAE31E9A3B5D0054D69D /* Info.plist */,
@@ -939,6 +944,7 @@
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
+				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

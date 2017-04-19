@@ -10,8 +10,7 @@
 #import "DesignPatternModel.h"
 #import "DesignPatternCollectionViewCell.h"
 #import "DesignPatternHeaderCollectionReusableView.h"
-
-#import "SimpleFactoryViewController.h"
+#import "DesignPatternVCFactory.h"
 
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
@@ -128,11 +127,12 @@
 {
     DesignPatternViewModel *viewModel = self.designPatternList[indexPath.section][DesignPatternsKey][indexPath.row];
     DesignPatternModel *designPatternModel = viewModel.designPatternModel;
-    if ([designPatternModel.patternChineseName isEqualToString:@"简单工厂模式"]) {
-        SimpleFactoryViewController *vc = [[SimpleFactoryViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    
+    zDesignPatternBaseViewController *designPatternVC = [DesignPatternVCFactory designPatternViewControllerNamed:designPatternModel.patternChineseName];
+    if (!designPatternVC) {
+        return;
     }
+    [designPatternVC testDesignPattern];
+    [self.navigationController pushViewController:designPatternVC animated:YES];
 }
 
 #pragma mark - 
