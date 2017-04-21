@@ -41,6 +41,8 @@
 		06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */; };
 		06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B951EA7699900C0C534 /* LoadBalancer.m */; };
 		06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B981EA76BCD00C0C534 /* SingletonViewController.m */; };
+		06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */; };
+		06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BA11EA97F9000C0C534 /* PrototypeViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -128,6 +130,10 @@
 		06446B951EA7699900C0C534 /* LoadBalancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadBalancer.m; sourceTree = "<group>"; };
 		06446B971EA76BCD00C0C534 /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
 		06446B981EA76BCD00C0C534 /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		06446B9D1EA97C8C00C0C534 /* WeeklyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyLog.h; sourceTree = "<group>"; };
+		06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyLog.m; sourceTree = "<group>"; };
+		06446BA01EA97F9000C0C534 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
+		06446BA11EA97F9000C0C534 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -239,6 +245,9 @@
 		06446AB61EA6FCBA00C0C534 /* 5_Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				06446B9C1EA97C6100C0C534 /* Client */,
+				06446B9A1EA97C3E00C0C534 /* ConcretePrototype */,
+				06446B9B1EA97C3E00C0C534 /* Prototype */,
 			);
 			path = 5_Prototype;
 			sourceTree = "<group>";
@@ -485,6 +494,8 @@
 		06446B121EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446BA01EA97F9000C0C534 /* PrototypeViewController.h */,
+				06446BA11EA97F9000C0C534 /* PrototypeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -909,6 +920,29 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
+		06446B9A1EA97C3E00C0C534 /* ConcretePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				06446B9D1EA97C8C00C0C534 /* WeeklyLog.h */,
+				06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */,
+			);
+			path = ConcretePrototype;
+			sourceTree = "<group>";
+		};
+		06446B9B1EA97C3E00C0C534 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		06446B9C1EA97C6100C0C534 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1149,6 +1183,7 @@
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
+				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
@@ -1166,6 +1201,7 @@
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
+				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
