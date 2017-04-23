@@ -50,6 +50,11 @@
 		06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC31EAB122200C0C534 /* AngelBuilder.m */; };
 		06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC61EAB123600C0C534 /* DevilBuilder.m */; };
 		06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC91EAB19C200C0C534 /* BuilderViewController.m */; };
+		06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */; };
+		06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD21EAB55C900C0C534 /* QuickSort.m */; };
+		06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD51EAB5C8000C0C534 /* BinarySearch.m */; };
+		06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD81EAB659700C0C534 /* OperationAdapter.m */; };
+		06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -155,6 +160,16 @@
 		06446BC61EAB123600C0C534 /* DevilBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevilBuilder.m; sourceTree = "<group>"; };
 		06446BC81EAB19C200C0C534 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		06446BC91EAB19C200C0C534 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		06446BCE1EAB54AB00C0C534 /* ScoreOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreOperation.h; sourceTree = "<group>"; };
+		06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreOperation.m; sourceTree = "<group>"; };
+		06446BD11EAB55C900C0C534 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		06446BD21EAB55C900C0C534 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		06446BD41EAB5C8000C0C534 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		06446BD51EAB5C8000C0C534 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		06446BD71EAB659700C0C534 /* OperationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdapter.h; sourceTree = "<group>"; };
+		06446BD81EAB659700C0C534 /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
+		06446BDA1EAB68AF00C0C534 /* AdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -286,6 +301,9 @@
 		06446AB81EA6FCBA00C0C534 /* 7_Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				06446BCB1EAB511600C0C534 /* Adaptee */,
+				06446BCC1EAB511600C0C534 /* Adapter */,
+				06446BCD1EAB511600C0C534 /* Target */,
 			);
 			path = 7_Adapter;
 			sourceTree = "<group>";
@@ -552,6 +570,8 @@
 		06446B161EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446BDA1EAB68AF00C0C534 /* AdapterViewController.h */,
+				06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1010,6 +1030,35 @@
 			path = Product;
 			sourceTree = "<group>";
 		};
+		06446BCB1EAB511600C0C534 /* Adaptee */ = {
+			isa = PBXGroup;
+			children = (
+				06446BD71EAB659700C0C534 /* OperationAdapter.h */,
+				06446BD81EAB659700C0C534 /* OperationAdapter.m */,
+			);
+			path = Adaptee;
+			sourceTree = "<group>";
+		};
+		06446BCC1EAB511600C0C534 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				06446BD11EAB55C900C0C534 /* QuickSort.h */,
+				06446BD21EAB55C900C0C534 /* QuickSort.m */,
+				06446BD41EAB5C8000C0C534 /* BinarySearch.h */,
+				06446BD51EAB5C8000C0C534 /* BinarySearch.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		06446BCD1EAB511600C0C534 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				06446BCE1EAB54AB00C0C534 /* ScoreOperation.h */,
+				06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1249,7 +1298,9 @@
 			files = (
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
+				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
+				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
@@ -1257,6 +1308,7 @@
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
+				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
@@ -1268,12 +1320,14 @@
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
 				06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */,
 				06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */,
+				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
 				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
+				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,

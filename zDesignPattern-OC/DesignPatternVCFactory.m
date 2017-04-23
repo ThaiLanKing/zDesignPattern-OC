@@ -13,6 +13,7 @@
 #import "SingletonViewController.h"
 #import "PrototypeViewController.h"
 #import "BuilderViewController.h"
+#import "AdapterViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -40,6 +41,9 @@
     }
     else if ([patternChineseName isEqualToString:@"建造者模式"]) {
         designPatternVC = [[BuilderViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"适配器模式"]) {
+        designPatternVC = [[AdapterViewController alloc] init];
     }
     
     if (designPatternVC) {
