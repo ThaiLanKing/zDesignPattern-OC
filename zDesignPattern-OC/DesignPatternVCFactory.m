@@ -14,6 +14,7 @@
 #import "PrototypeViewController.h"
 #import "BuilderViewController.h"
 #import "AdapterViewController.h"
+#import "BridgeViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -44,6 +45,9 @@
     }
     else if ([patternChineseName isEqualToString:@"适配器模式"]) {
         designPatternVC = [[AdapterViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"桥接模式"]) {
+        designPatternVC = [[BridgeViewController alloc] init];
     }
     
     if (designPatternVC) {

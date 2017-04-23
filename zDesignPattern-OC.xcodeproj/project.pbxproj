@@ -55,6 +55,17 @@
 		06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD51EAB5C8000C0C534 /* BinarySearch.m */; };
 		06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD81EAB659700C0C534 /* OperationAdapter.m */; };
 		06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */; };
+		06446BE31EAC554700C0C534 /* DPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BE21EAC554700C0C534 /* DPImage.m */; };
+		06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BE51EAC55CD00C0C534 /* DPImageImp.m */; };
+		06446BE91EAC5A8800C0C534 /* WindowsImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BE81EAC5A8800C0C534 /* WindowsImp.m */; };
+		06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BEB1EAC5AE100C0C534 /* LinuxImp.m */; };
+		06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BEE1EAC5B1800C0C534 /* UnixImp.m */; };
+		06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BF11EAC5B5700C0C534 /* DPJPGImage.m */; };
+		06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BF41EAC5B9300C0C534 /* DPPNGImage.m */; };
+		06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BF71EAC5BA900C0C534 /* DPBMPImage.m */; };
+		06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BFA1EAC5BDF00C0C534 /* DPMatrix.m */; };
+		06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BFD1EAC5F4C00C0C534 /* DPGIFImage.m */; };
+		06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C001EAC5FC700C0C534 /* BridgeViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -170,6 +181,28 @@
 		06446BD81EAB659700C0C534 /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
 		06446BDA1EAB68AF00C0C534 /* AdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
 		06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		06446BE11EAC554700C0C534 /* DPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImage.h; sourceTree = "<group>"; };
+		06446BE21EAC554700C0C534 /* DPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImage.m; sourceTree = "<group>"; };
+		06446BE41EAC55CD00C0C534 /* DPImageImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageImp.h; sourceTree = "<group>"; };
+		06446BE51EAC55CD00C0C534 /* DPImageImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageImp.m; sourceTree = "<group>"; };
+		06446BE71EAC5A8800C0C534 /* WindowsImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowsImp.h; sourceTree = "<group>"; };
+		06446BE81EAC5A8800C0C534 /* WindowsImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowsImp.m; sourceTree = "<group>"; };
+		06446BEA1EAC5AE100C0C534 /* LinuxImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinuxImp.h; sourceTree = "<group>"; };
+		06446BEB1EAC5AE100C0C534 /* LinuxImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinuxImp.m; sourceTree = "<group>"; };
+		06446BED1EAC5B1800C0C534 /* UnixImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnixImp.h; sourceTree = "<group>"; };
+		06446BEE1EAC5B1800C0C534 /* UnixImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnixImp.m; sourceTree = "<group>"; };
+		06446BF01EAC5B5700C0C534 /* DPJPGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPJPGImage.h; sourceTree = "<group>"; };
+		06446BF11EAC5B5700C0C534 /* DPJPGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPJPGImage.m; sourceTree = "<group>"; };
+		06446BF31EAC5B9300C0C534 /* DPPNGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPNGImage.h; sourceTree = "<group>"; };
+		06446BF41EAC5B9300C0C534 /* DPPNGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPNGImage.m; sourceTree = "<group>"; };
+		06446BF61EAC5BA900C0C534 /* DPBMPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBMPImage.h; sourceTree = "<group>"; };
+		06446BF71EAC5BA900C0C534 /* DPBMPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBMPImage.m; sourceTree = "<group>"; };
+		06446BF91EAC5BDF00C0C534 /* DPMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMatrix.h; sourceTree = "<group>"; };
+		06446BFA1EAC5BDF00C0C534 /* DPMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMatrix.m; sourceTree = "<group>"; };
+		06446BFC1EAC5F4C00C0C534 /* DPGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPGIFImage.h; sourceTree = "<group>"; };
+		06446BFD1EAC5F4C00C0C534 /* DPGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPGIFImage.m; sourceTree = "<group>"; };
+		06446BFF1EAC5FC700C0C534 /* BridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
+		06446C001EAC5FC700C0C534 /* BridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -311,6 +344,10 @@
 		06446AB91EA6FCBA00C0C534 /* 8_Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				06446BDD1EAC54FB00C0C534 /* Abstraction */,
+				06446BDF1EAC54FB00C0C534 /* Implementor */,
+				06446BF91EAC5BDF00C0C534 /* DPMatrix.h */,
+				06446BFA1EAC5BDF00C0C534 /* DPMatrix.m */,
 			);
 			path = 8_Bridge;
 			sourceTree = "<group>";
@@ -587,6 +624,8 @@
 		06446B181EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446BFF1EAC5FC700C0C534 /* BridgeViewController.h */,
+				06446C001EAC5FC700C0C534 /* BridgeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1059,6 +1098,54 @@
 			path = Target;
 			sourceTree = "<group>";
 		};
+		06446BDD1EAC54FB00C0C534 /* Abstraction */ = {
+			isa = PBXGroup;
+			children = (
+				06446BDE1EAC54FB00C0C534 /* RefinedAbstraction */,
+				06446BE11EAC554700C0C534 /* DPImage.h */,
+				06446BE21EAC554700C0C534 /* DPImage.m */,
+			);
+			path = Abstraction;
+			sourceTree = "<group>";
+		};
+		06446BDE1EAC54FB00C0C534 /* RefinedAbstraction */ = {
+			isa = PBXGroup;
+			children = (
+				06446BF01EAC5B5700C0C534 /* DPJPGImage.h */,
+				06446BF11EAC5B5700C0C534 /* DPJPGImage.m */,
+				06446BF31EAC5B9300C0C534 /* DPPNGImage.h */,
+				06446BF41EAC5B9300C0C534 /* DPPNGImage.m */,
+				06446BF61EAC5BA900C0C534 /* DPBMPImage.h */,
+				06446BF71EAC5BA900C0C534 /* DPBMPImage.m */,
+				06446BFC1EAC5F4C00C0C534 /* DPGIFImage.h */,
+				06446BFD1EAC5F4C00C0C534 /* DPGIFImage.m */,
+			);
+			path = RefinedAbstraction;
+			sourceTree = "<group>";
+		};
+		06446BDF1EAC54FB00C0C534 /* Implementor */ = {
+			isa = PBXGroup;
+			children = (
+				06446BE01EAC54FB00C0C534 /* ConcreteImplementor */,
+				06446BE41EAC55CD00C0C534 /* DPImageImp.h */,
+				06446BE51EAC55CD00C0C534 /* DPImageImp.m */,
+			);
+			path = Implementor;
+			sourceTree = "<group>";
+		};
+		06446BE01EAC54FB00C0C534 /* ConcreteImplementor */ = {
+			isa = PBXGroup;
+			children = (
+				06446BE71EAC5A8800C0C534 /* WindowsImp.h */,
+				06446BE81EAC5A8800C0C534 /* WindowsImp.m */,
+				06446BEA1EAC5AE100C0C534 /* LinuxImp.h */,
+				06446BEB1EAC5AE100C0C534 /* LinuxImp.m */,
+				06446BED1EAC5B1800C0C534 /* UnixImp.h */,
+				06446BEE1EAC5B1800C0C534 /* UnixImp.m */,
+			);
+			path = ConcreteImplementor;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1299,6 +1386,8 @@
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
+				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
+				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
 				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
@@ -1307,6 +1396,7 @@
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
+				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
@@ -1314,6 +1404,7 @@
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
+				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
@@ -1326,19 +1417,25 @@
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
+				06446BE31EAC554700C0C534 /* DPImage.m in Sources */,
+				06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */,
 				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
+				06446BE91EAC5A8800C0C534 /* WindowsImp.m in Sources */,
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
+				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
+				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
 				06446BBE1EAB11C500C0C534 /* ActorBuilder.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
+				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
@@ -1346,6 +1443,7 @@
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
+				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
