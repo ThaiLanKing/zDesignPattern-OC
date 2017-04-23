@@ -10,4 +10,9 @@
 
 @implementation DPImageImp
 
+- (void)doPaint:(DPMatrix *)matrix
+{
+    NSLog(@"do nothing");
+}
+
 @end

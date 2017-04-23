@@ -66,6 +66,12 @@
 		06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BFA1EAC5BDF00C0C534 /* DPMatrix.m */; };
 		06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BFD1EAC5F4C00C0C534 /* DPGIFImage.m */; };
 		06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C001EAC5FC700C0C534 /* BridgeViewController.m */; };
+		06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C061EACB66F00C0C534 /* AbstractFile.m */; };
+		06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C091EACB6FE00C0C534 /* DPImageFile.m */; };
+		06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C0C1EACB84C00C0C534 /* DPTextFile.m */; };
+		06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C0F1EACB8C700C0C534 /* DPVideoFile.m */; };
+		06446C131EACB91E00C0C534 /* DPFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C121EACB91E00C0C534 /* DPFolder.m */; };
+		06446C161EACBB6000C0C534 /* CompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C151EACBB6000C0C534 /* CompositeViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -203,6 +209,18 @@
 		06446BFD1EAC5F4C00C0C534 /* DPGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPGIFImage.m; sourceTree = "<group>"; };
 		06446BFF1EAC5FC700C0C534 /* BridgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
 		06446C001EAC5FC700C0C534 /* BridgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		06446C051EACB66F00C0C534 /* AbstractFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFile.h; sourceTree = "<group>"; };
+		06446C061EACB66F00C0C534 /* AbstractFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFile.m; sourceTree = "<group>"; };
+		06446C081EACB6FE00C0C534 /* DPImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImageFile.h; sourceTree = "<group>"; };
+		06446C091EACB6FE00C0C534 /* DPImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPImageFile.m; sourceTree = "<group>"; };
+		06446C0B1EACB84C00C0C534 /* DPTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextFile.h; sourceTree = "<group>"; };
+		06446C0C1EACB84C00C0C534 /* DPTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextFile.m; sourceTree = "<group>"; };
+		06446C0E1EACB8C700C0C534 /* DPVideoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPVideoFile.h; sourceTree = "<group>"; };
+		06446C0F1EACB8C700C0C534 /* DPVideoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPVideoFile.m; sourceTree = "<group>"; };
+		06446C111EACB91E00C0C534 /* DPFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFolder.h; sourceTree = "<group>"; };
+		06446C121EACB91E00C0C534 /* DPFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFolder.m; sourceTree = "<group>"; };
+		06446C141EACBB6000C0C534 /* CompositeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeViewController.h; sourceTree = "<group>"; };
+		06446C151EACBB6000C0C534 /* CompositeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -355,6 +373,9 @@
 		06446ABA1EA6FCBA00C0C534 /* 9_Composite */ = {
 			isa = PBXGroup;
 			children = (
+				06446C021EACB61600C0C534 /* Component */,
+				06446C031EACB61600C0C534 /* Composite */,
+				06446C041EACB61600C0C534 /* Leaf */,
 			);
 			path = 9_Composite;
 			sourceTree = "<group>";
@@ -641,6 +662,8 @@
 		06446B1A1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446C141EACBB6000C0C534 /* CompositeViewController.h */,
+				06446C151EACBB6000C0C534 /* CompositeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1146,6 +1169,37 @@
 			path = ConcreteImplementor;
 			sourceTree = "<group>";
 		};
+		06446C021EACB61600C0C534 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				06446C051EACB66F00C0C534 /* AbstractFile.h */,
+				06446C061EACB66F00C0C534 /* AbstractFile.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		06446C031EACB61600C0C534 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				06446C111EACB91E00C0C534 /* DPFolder.h */,
+				06446C121EACB91E00C0C534 /* DPFolder.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		06446C041EACB61600C0C534 /* Leaf */ = {
+			isa = PBXGroup;
+			children = (
+				06446C081EACB6FE00C0C534 /* DPImageFile.h */,
+				06446C091EACB6FE00C0C534 /* DPImageFile.m */,
+				06446C0B1EACB84C00C0C534 /* DPTextFile.h */,
+				06446C0C1EACB84C00C0C534 /* DPTextFile.m */,
+				06446C0E1EACB8C700C0C534 /* DPVideoFile.h */,
+				06446C0F1EACB8C700C0C534 /* DPVideoFile.m */,
+			);
+			path = Leaf;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1386,6 +1440,7 @@
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
+				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
@@ -1401,7 +1456,10 @@
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
+				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
+				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
+				06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */,
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
@@ -1415,6 +1473,7 @@
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
+				06446C161EACBB6000C0C534 /* CompositeViewController.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
 				06446BE31EAC554700C0C534 /* DPImage.m in Sources */,
@@ -1426,6 +1485,7 @@
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
+				06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,

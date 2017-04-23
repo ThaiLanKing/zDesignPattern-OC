@@ -15,4 +15,9 @@
     _imgImp = imgImp;
 }
 
+- (void)parseFile:(NSString *)fileName
+{
+    NSLog(@"do nothing");
+}
+
 @end
