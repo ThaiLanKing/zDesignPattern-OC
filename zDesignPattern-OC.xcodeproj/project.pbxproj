@@ -92,6 +92,12 @@
 		06446C591EADA19500C0C534 /* IgoChessmanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C581EADA19500C0C534 /* IgoChessmanFactory.m */; };
 		06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C5B1EADAEA600C0C534 /* FlyweightViewController.m */; };
 		06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C5E1EADDA9A00C0C534 /* DPCoordinates.m */; };
+		06446C651EADDE7D00C0C534 /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C641EADDE7D00C0C534 /* ProxyViewController.m */; };
+		06446C681EADDF3F00C0C534 /* DPSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C671EADDF3F00C0C534 /* DPSearcher.m */; };
+		06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C6A1EADDF6900C0C534 /* AccessValidator.m */; };
+		06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C6D1EADE0AC00C0C534 /* DPLogger.m */; };
+		06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C701EADE17E00C0C534 /* DPRealSearcher.m */; };
+		06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C731EADE22600C0C534 /* DPProxySearcher.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -280,6 +286,18 @@
 		06446C5B1EADAEA600C0C534 /* FlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightViewController.m; sourceTree = "<group>"; };
 		06446C5D1EADDA9A00C0C534 /* DPCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCoordinates.h; sourceTree = "<group>"; };
 		06446C5E1EADDA9A00C0C534 /* DPCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCoordinates.m; sourceTree = "<group>"; };
+		06446C631EADDE7D00C0C534 /* ProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		06446C641EADDE7D00C0C534 /* ProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		06446C661EADDF3F00C0C534 /* DPSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSearcher.h; sourceTree = "<group>"; };
+		06446C671EADDF3F00C0C534 /* DPSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSearcher.m; sourceTree = "<group>"; };
+		06446C691EADDF6900C0C534 /* AccessValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessValidator.h; sourceTree = "<group>"; };
+		06446C6A1EADDF6900C0C534 /* AccessValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessValidator.m; sourceTree = "<group>"; };
+		06446C6C1EADE0AC00C0C534 /* DPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPLogger.h; sourceTree = "<group>"; };
+		06446C6D1EADE0AC00C0C534 /* DPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPLogger.m; sourceTree = "<group>"; };
+		06446C6F1EADE17E00C0C534 /* DPRealSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRealSearcher.h; sourceTree = "<group>"; };
+		06446C701EADE17E00C0C534 /* DPRealSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRealSearcher.m; sourceTree = "<group>"; };
+		06446C721EADE22600C0C534 /* DPProxySearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPProxySearcher.h; sourceTree = "<group>"; };
+		06446C731EADE22600C0C534 /* DPProxySearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxySearcher.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -471,6 +489,11 @@
 		06446ABE1EA6FCBA00C0C534 /* 13_Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				06446C601EADDE5000C0C534 /* Subject */,
+				06446C691EADDF6900C0C534 /* AccessValidator.h */,
+				06446C6A1EADDF6900C0C534 /* AccessValidator.m */,
+				06446C6C1EADE0AC00C0C534 /* DPLogger.h */,
+				06446C6D1EADE0AC00C0C534 /* DPLogger.m */,
 			);
 			path = 13_Proxy;
 			sourceTree = "<group>";
@@ -798,6 +821,8 @@
 		06446B221EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446C631EADDE7D00C0C534 /* ProxyViewController.h */,
+				06446C641EADDE7D00C0C534 /* ProxyViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1378,6 +1403,35 @@
 			path = FlyweightFactory;
 			sourceTree = "<group>";
 		};
+		06446C601EADDE5000C0C534 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				06446C661EADDF3F00C0C534 /* DPSearcher.h */,
+				06446C671EADDF3F00C0C534 /* DPSearcher.m */,
+				06446C611EADDE5000C0C534 /* Proxy */,
+				06446C621EADDE5000C0C534 /* RealSubject */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		06446C611EADDE5000C0C534 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				06446C721EADE22600C0C534 /* DPProxySearcher.h */,
+				06446C731EADE22600C0C534 /* DPProxySearcher.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		06446C621EADDE5000C0C534 /* RealSubject */ = {
+			isa = PBXGroup;
+			children = (
+				06446C6F1EADE17E00C0C534 /* DPRealSearcher.h */,
+				06446C701EADE17E00C0C534 /* DPRealSearcher.m */,
+			);
+			path = RealSubject;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1623,6 +1677,7 @@
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
+				06446C651EADDE7D00C0C534 /* ProxyViewController.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
@@ -1632,6 +1687,7 @@
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
+				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
@@ -1655,6 +1711,7 @@
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
 				06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */,
+				06446C681EADDF3F00C0C534 /* DPSearcher.m in Sources */,
 				06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */,
 				06446C2F1EACF4D900C0C534 /* BlackBorderDecorator.m in Sources */,
 				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
@@ -1680,9 +1737,11 @@
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
 				06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */,
 				06446C261EACF37300C0C534 /* DPListBox.m in Sources */,
+				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
+				06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
@@ -1700,6 +1759,7 @@
 				06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
+				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
 			);

@@ -19,6 +19,7 @@
 #import "DecoratorViewController.h"
 #import "FacadeViewController.h"
 #import "FlyweightViewController.h"
+#import "ProxyViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -64,6 +65,9 @@
     }
     else if ([patternChineseName isEqualToString:@"享元模式"]) {
         designPatternVC = [[FlyweightViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"代理模式"]) {
+        designPatternVC = [[ProxyViewController alloc] init];
     }
     
     if (designPatternVC) {
