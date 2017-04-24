@@ -80,6 +80,12 @@
 		06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C2B1EACF45B00C0C534 /* ScrollBarDecorator.m */; };
 		06446C2F1EACF4D900C0C534 /* BlackBorderDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C2E1EACF4D900C0C534 /* BlackBorderDecorator.m */; };
 		06446C321EACF56000C0C534 /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C311EACF56000C0C534 /* DecoratorViewController.m */; };
+		06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C361EAD8A6F00C0C534 /* DPFileReader.m */; };
+		06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C3D1EAD925300C0C534 /* DPCipherMachine.m */; };
+		06446C411EAD956F00C0C534 /* DPFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C401EAD956F00C0C534 /* DPFileWriter.m */; };
+		06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C431EAD994E00C0C534 /* EncryptFacade.m */; };
+		06446C471EAD9B0100C0C534 /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C461EAD9B0100C0C534 /* FacadeViewController.m */; };
+		06446C491EAD9C0900C0C534 /* src.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06446C481EAD9C0900C0C534 /* src.txt */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -245,6 +251,17 @@
 		06446C2E1EACF4D900C0C534 /* BlackBorderDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackBorderDecorator.m; sourceTree = "<group>"; };
 		06446C301EACF56000C0C534 /* DecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorViewController.h; sourceTree = "<group>"; };
 		06446C311EACF56000C0C534 /* DecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorViewController.m; sourceTree = "<group>"; };
+		06446C351EAD8A6F00C0C534 /* DPFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFileReader.h; sourceTree = "<group>"; };
+		06446C361EAD8A6F00C0C534 /* DPFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFileReader.m; sourceTree = "<group>"; };
+		06446C3C1EAD925300C0C534 /* DPCipherMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCipherMachine.h; sourceTree = "<group>"; };
+		06446C3D1EAD925300C0C534 /* DPCipherMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCipherMachine.m; sourceTree = "<group>"; };
+		06446C3F1EAD956F00C0C534 /* DPFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPFileWriter.h; sourceTree = "<group>"; };
+		06446C401EAD956F00C0C534 /* DPFileWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPFileWriter.m; sourceTree = "<group>"; };
+		06446C421EAD994E00C0C534 /* EncryptFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptFacade.h; sourceTree = "<group>"; };
+		06446C431EAD994E00C0C534 /* EncryptFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptFacade.m; sourceTree = "<group>"; };
+		06446C451EAD9B0100C0C534 /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
+		06446C461EAD9B0100C0C534 /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
+		06446C481EAD9C0900C0C534 /* src.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = src.txt; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -416,6 +433,8 @@
 		06446ABC1EA6FCBA00C0C534 /* 11_Facade */ = {
 			isa = PBXGroup;
 			children = (
+				06446C331EAD89F600C0C534 /* Facade */,
+				06446C341EAD89F600C0C534 /* SubSystem */,
 			);
 			path = 11_Facade;
 			sourceTree = "<group>";
@@ -722,6 +741,9 @@
 		06446B1E1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446C481EAD9C0900C0C534 /* src.txt */,
+				06446C451EAD9B0100C0C534 /* FacadeViewController.h */,
+				06446C461EAD9B0100C0C534 /* FacadeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1272,6 +1294,28 @@
 			path = ConcreteDecorator;
 			sourceTree = "<group>";
 		};
+		06446C331EAD89F600C0C534 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				06446C421EAD994E00C0C534 /* EncryptFacade.h */,
+				06446C431EAD994E00C0C534 /* EncryptFacade.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		06446C341EAD89F600C0C534 /* SubSystem */ = {
+			isa = PBXGroup;
+			children = (
+				06446C351EAD8A6F00C0C534 /* DPFileReader.h */,
+				06446C361EAD8A6F00C0C534 /* DPFileReader.m */,
+				06446C3C1EAD925300C0C534 /* DPCipherMachine.h */,
+				06446C3D1EAD925300C0C534 /* DPCipherMachine.m */,
+				06446C3F1EAD956F00C0C534 /* DPFileWriter.h */,
+				06446C401EAD956F00C0C534 /* DPFileWriter.m */,
+			);
+			path = SubSystem;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1489,6 +1533,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A7EAE21E9A3B5D0054D69D /* LaunchScreen.storyboard in Resources */,
+				06446C491EAD9C0900C0C534 /* src.txt in Resources */,
 				062E2C8A1EA4615E0040DD85 /* DesignPatternList.plist in Resources */,
 				06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */,
 			);
@@ -1512,6 +1557,7 @@
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
+				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
@@ -1521,6 +1567,7 @@
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
+				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
@@ -1548,6 +1595,7 @@
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
+				06446C411EAD956F00C0C534 /* DPFileWriter.m in Sources */,
 				06446C161EACBB6000C0C534 /* CompositeViewController.m in Sources */,
 				06446C201EACF31400C0C534 /* DPWindow.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
@@ -1570,9 +1618,11 @@
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
+				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
+				06446C471EAD9B0100C0C534 /* FacadeViewController.m in Sources */,
 				06446BBE1EAB11C500C0C534 /* ActorBuilder.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,

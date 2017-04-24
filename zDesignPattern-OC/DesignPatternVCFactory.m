@@ -17,6 +17,7 @@
 #import "BridgeViewController.h"
 #import "CompositeViewController.h"
 #import "DecoratorViewController.h"
+#import "FacadeViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -56,6 +57,9 @@
     }
     else if ([patternChineseName isEqualToString:@"装饰模式"]) {
         designPatternVC = [[DecoratorViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"外观模式"]) {
+        designPatternVC = [[FacadeViewController alloc] init];
     }
     
     if (designPatternVC) {
