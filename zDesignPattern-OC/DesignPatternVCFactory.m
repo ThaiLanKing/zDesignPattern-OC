@@ -18,6 +18,7 @@
 #import "CompositeViewController.h"
 #import "DecoratorViewController.h"
 #import "FacadeViewController.h"
+#import "FlyweightViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -60,6 +61,9 @@
     }
     else if ([patternChineseName isEqualToString:@"外观模式"]) {
         designPatternVC = [[FacadeViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"享元模式"]) {
+        designPatternVC = [[FlyweightViewController alloc] init];
     }
     
     if (designPatternVC) {

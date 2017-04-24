@@ -86,6 +86,12 @@
 		06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C431EAD994E00C0C534 /* EncryptFacade.m */; };
 		06446C471EAD9B0100C0C534 /* FacadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C461EAD9B0100C0C534 /* FacadeViewController.m */; };
 		06446C491EAD9C0900C0C534 /* src.txt in Resources */ = {isa = PBXBuildFile; fileRef = 06446C481EAD9C0900C0C534 /* src.txt */; };
+		06446C501EADA04600C0C534 /* IgoChessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C4F1EADA04600C0C534 /* IgoChessman.m */; };
+		06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C521EADA12100C0C534 /* BlackIgoChessman.m */; };
+		06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C551EADA13500C0C534 /* WhiteIgoChessman.m */; };
+		06446C591EADA19500C0C534 /* IgoChessmanFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C581EADA19500C0C534 /* IgoChessmanFactory.m */; };
+		06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C5B1EADAEA600C0C534 /* FlyweightViewController.m */; };
+		06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C5E1EADDA9A00C0C534 /* DPCoordinates.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -262,6 +268,18 @@
 		06446C451EAD9B0100C0C534 /* FacadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacadeViewController.h; sourceTree = "<group>"; };
 		06446C461EAD9B0100C0C534 /* FacadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacadeViewController.m; sourceTree = "<group>"; };
 		06446C481EAD9C0900C0C534 /* src.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = src.txt; sourceTree = "<group>"; };
+		06446C4E1EADA04600C0C534 /* IgoChessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgoChessman.h; sourceTree = "<group>"; };
+		06446C4F1EADA04600C0C534 /* IgoChessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgoChessman.m; sourceTree = "<group>"; };
+		06446C511EADA12100C0C534 /* BlackIgoChessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackIgoChessman.h; sourceTree = "<group>"; };
+		06446C521EADA12100C0C534 /* BlackIgoChessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackIgoChessman.m; sourceTree = "<group>"; };
+		06446C541EADA13500C0C534 /* WhiteIgoChessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteIgoChessman.h; sourceTree = "<group>"; };
+		06446C551EADA13500C0C534 /* WhiteIgoChessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteIgoChessman.m; sourceTree = "<group>"; };
+		06446C571EADA19500C0C534 /* IgoChessmanFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IgoChessmanFactory.h; sourceTree = "<group>"; };
+		06446C581EADA19500C0C534 /* IgoChessmanFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IgoChessmanFactory.m; sourceTree = "<group>"; };
+		06446C5A1EADAEA600C0C534 /* FlyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightViewController.h; sourceTree = "<group>"; };
+		06446C5B1EADAEA600C0C534 /* FlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightViewController.m; sourceTree = "<group>"; };
+		06446C5D1EADDA9A00C0C534 /* DPCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPCoordinates.h; sourceTree = "<group>"; };
+		06446C5E1EADDA9A00C0C534 /* DPCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPCoordinates.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -442,6 +460,10 @@
 		06446ABD1EA6FCBA00C0C534 /* 12_Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				06446C4A1EAD9F0600C0C534 /* Flyweight */,
+				06446C4D1EAD9F0600C0C534 /* FlyweightFactory */,
+				06446C5D1EADDA9A00C0C534 /* DPCoordinates.h */,
+				06446C5E1EADDA9A00C0C534 /* DPCoordinates.m */,
 			);
 			path = 12_Flyweight;
 			sourceTree = "<group>";
@@ -759,6 +781,8 @@
 		06446B201EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446C5A1EADAEA600C0C534 /* FlyweightViewController.h */,
+				06446C5B1EADAEA600C0C534 /* FlyweightViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1316,6 +1340,44 @@
 			path = SubSystem;
 			sourceTree = "<group>";
 		};
+		06446C4A1EAD9F0600C0C534 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				06446C4B1EAD9F0600C0C534 /* ConcreteFlyweight */,
+				06446C4C1EAD9F0600C0C534 /* UnsharedConcreteFlyweight */,
+				06446C4E1EADA04600C0C534 /* IgoChessman.h */,
+				06446C4F1EADA04600C0C534 /* IgoChessman.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		06446C4B1EAD9F0600C0C534 /* ConcreteFlyweight */ = {
+			isa = PBXGroup;
+			children = (
+				06446C511EADA12100C0C534 /* BlackIgoChessman.h */,
+				06446C521EADA12100C0C534 /* BlackIgoChessman.m */,
+				06446C541EADA13500C0C534 /* WhiteIgoChessman.h */,
+				06446C551EADA13500C0C534 /* WhiteIgoChessman.m */,
+			);
+			path = ConcreteFlyweight;
+			sourceTree = "<group>";
+		};
+		06446C4C1EAD9F0600C0C534 /* UnsharedConcreteFlyweight */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnsharedConcreteFlyweight;
+			sourceTree = "<group>";
+		};
+		06446C4D1EAD9F0600C0C534 /* FlyweightFactory */ = {
+			isa = PBXGroup;
+			children = (
+				06446C571EADA19500C0C534 /* IgoChessmanFactory.h */,
+				06446C581EADA19500C0C534 /* IgoChessmanFactory.m */,
+			);
+			path = FlyweightFactory;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1557,7 +1619,9 @@
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
+				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
+				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
@@ -1574,6 +1638,8 @@
 				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
+				06446C591EADA19500C0C534 /* IgoChessmanFactory.m in Sources */,
+				06446C501EADA04600C0C534 /* IgoChessman.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
 				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
@@ -1584,6 +1650,7 @@
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
+				06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
@@ -1626,6 +1693,7 @@
 				06446BBE1EAB11C500C0C534 /* ActorBuilder.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,
+				06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
