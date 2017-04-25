@@ -22,6 +22,7 @@
 #import "ProxyViewController.h"
 #import "ChainOfResponsibilityViewController.h"
 #import "CommandViewController.h"
+#import "InterpreterViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -76,6 +77,9 @@
     }
     else if ([patternChineseName isEqualToString:@"命令模式"]) {
         designPatternVC = [[CommandViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"解释器模式"]) {
+        designPatternVC = [[InterpreterViewController alloc] init];
     }
     
     if (designPatternVC) {

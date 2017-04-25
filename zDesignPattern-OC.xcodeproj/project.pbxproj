@@ -113,6 +113,14 @@
 		06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA01EAEFAC200C0C534 /* HelpCommand.m */; };
 		06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */; };
 		06446CA71EAEFF8000C0C534 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA61EAEFF8000C0C534 /* CommandViewController.m */; };
+		06446CAE1EAF2F5600C0C534 /* AbstractNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CAD1EAF2F5600C0C534 /* AbstractNode.m */; };
+		06446CB11EAF2FAB00C0C534 /* AndNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB01EAF2FAB00C0C534 /* AndNode.m */; };
+		06446CB41EAF3A6400C0C534 /* SentenceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB31EAF3A6400C0C534 /* SentenceNode.m */; };
+		06446CB71EAF3BE400C0C534 /* DirectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB61EAF3BE400C0C534 /* DirectionNode.m */; };
+		06446CBA1EAF3D8100C0C534 /* ActionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB91EAF3D8100C0C534 /* ActionNode.m */; };
+		06446CBD1EAF3FCF00C0C534 /* DistanceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */; };
+		06446CC01EAF408C00C0C534 /* InstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CBF1EAF408C00C0C534 /* InstructionHandler.m */; };
+		06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CC21EAF470100C0C534 /* InterpreterViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -343,6 +351,22 @@
 		06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimizeCommand.m; sourceTree = "<group>"; };
 		06446CA51EAEFF8000C0C534 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
 		06446CA61EAEFF8000C0C534 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		06446CAC1EAF2F5600C0C534 /* AbstractNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNode.h; sourceTree = "<group>"; };
+		06446CAD1EAF2F5600C0C534 /* AbstractNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractNode.m; sourceTree = "<group>"; };
+		06446CAF1EAF2FAB00C0C534 /* AndNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndNode.h; sourceTree = "<group>"; };
+		06446CB01EAF2FAB00C0C534 /* AndNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndNode.m; sourceTree = "<group>"; };
+		06446CB21EAF3A6400C0C534 /* SentenceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceNode.h; sourceTree = "<group>"; };
+		06446CB31EAF3A6400C0C534 /* SentenceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceNode.m; sourceTree = "<group>"; };
+		06446CB51EAF3BE400C0C534 /* DirectionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionNode.h; sourceTree = "<group>"; };
+		06446CB61EAF3BE400C0C534 /* DirectionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionNode.m; sourceTree = "<group>"; };
+		06446CB81EAF3D8100C0C534 /* ActionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionNode.h; sourceTree = "<group>"; };
+		06446CB91EAF3D8100C0C534 /* ActionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionNode.m; sourceTree = "<group>"; };
+		06446CBB1EAF3FCF00C0C534 /* DistanceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceNode.h; sourceTree = "<group>"; };
+		06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceNode.m; sourceTree = "<group>"; };
+		06446CBE1EAF408C00C0C534 /* InstructionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionHandler.h; sourceTree = "<group>"; };
+		06446CBF1EAF408C00C0C534 /* InstructionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionHandler.m; sourceTree = "<group>"; };
+		06446CC11EAF470100C0C534 /* InterpreterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterpreterViewController.h; sourceTree = "<group>"; };
+		06446CC21EAF470100C0C534 /* InterpreterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterpreterViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -568,6 +592,10 @@
 		06446AC11EA6FCBA00C0C534 /* 16_Interpreter */ = {
 			isa = PBXGroup;
 			children = (
+				06446CA81EAF2EFF00C0C534 /* AbstractExpression */,
+				06446CAB1EAF2EFF00C0C534 /* Context */,
+				06446CBE1EAF408C00C0C534 /* InstructionHandler.h */,
+				06446CBF1EAF408C00C0C534 /* InstructionHandler.m */,
 			);
 			path = 16_Interpreter;
 			sourceTree = "<group>";
@@ -925,6 +953,8 @@
 		06446B281EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446CC11EAF470100C0C534 /* InterpreterViewController.h */,
+				06446CC21EAF470100C0C534 /* InterpreterViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1555,6 +1585,48 @@
 			path = Receiver;
 			sourceTree = "<group>";
 		};
+		06446CA81EAF2EFF00C0C534 /* AbstractExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CAC1EAF2F5600C0C534 /* AbstractNode.h */,
+				06446CAD1EAF2F5600C0C534 /* AbstractNode.m */,
+				06446CA91EAF2EFF00C0C534 /* NonterminalExpression */,
+				06446CAA1EAF2EFF00C0C534 /* TerminalExpression */,
+			);
+			path = AbstractExpression;
+			sourceTree = "<group>";
+		};
+		06446CA91EAF2EFF00C0C534 /* NonterminalExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CAF1EAF2FAB00C0C534 /* AndNode.h */,
+				06446CB01EAF2FAB00C0C534 /* AndNode.m */,
+				06446CB21EAF3A6400C0C534 /* SentenceNode.h */,
+				06446CB31EAF3A6400C0C534 /* SentenceNode.m */,
+			);
+			path = NonterminalExpression;
+			sourceTree = "<group>";
+		};
+		06446CAA1EAF2EFF00C0C534 /* TerminalExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CB51EAF3BE400C0C534 /* DirectionNode.h */,
+				06446CB61EAF3BE400C0C534 /* DirectionNode.m */,
+				06446CB81EAF3D8100C0C534 /* ActionNode.h */,
+				06446CB91EAF3D8100C0C534 /* ActionNode.m */,
+				06446CBB1EAF3FCF00C0C534 /* DistanceNode.h */,
+				06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */,
+			);
+			path = TerminalExpression;
+			sourceTree = "<group>";
+		};
+		06446CAB1EAF2EFF00C0C534 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1800,6 +1872,8 @@
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
+				06446CC01EAF408C00C0C534 /* InstructionHandler.m in Sources */,
+				06446CAE1EAF2F5600C0C534 /* AbstractNode.m in Sources */,
 				06446C651EADDE7D00C0C534 /* ProxyViewController.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
@@ -1816,6 +1890,7 @@
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
+				06446CB11EAF2FAB00C0C534 /* AndNode.m in Sources */,
 				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
@@ -1834,6 +1909,7 @@
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
+				06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
 				06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
@@ -1847,6 +1923,7 @@
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
+				06446CB71EAF3BE400C0C534 /* DirectionNode.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
 				06446C411EAD956F00C0C534 /* DPFileWriter.m in Sources */,
 				06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */,
@@ -1890,12 +1967,15 @@
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,
 				06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */,
+				06446CBD1EAF3FCF00C0C534 /* DistanceNode.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
+				06446CB41EAF3A6400C0C534 /* SentenceNode.m in Sources */,
 				06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */,
 				06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
+				06446CBA1EAF3D8100C0C534 /* ActionNode.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
