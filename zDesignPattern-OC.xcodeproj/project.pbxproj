@@ -105,6 +105,14 @@
 		06446C851EAEE82100C0C534 /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C841EAEE82100C0C534 /* President.m */; };
 		06446C881EAEE86800C0C534 /* Congress.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C871EAEE86800C0C534 /* Congress.m */; };
 		06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C8A1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m */; };
+		06446C921EAEF78000C0C534 /* FBSettingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C911EAEF78000C0C534 /* FBSettingWindow.m */; };
+		06446C951EAEF7E500C0C534 /* FunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C941EAEF7E500C0C534 /* FunctionButton.m */; };
+		06446C981EAEF82200C0C534 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C971EAEF82200C0C534 /* Command.m */; };
+		06446C9B1EAEF89700C0C534 /* WindowHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C9A1EAEF89700C0C534 /* WindowHandler.m */; };
+		06446C9E1EAEF8B200C0C534 /* HelpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C9D1EAEF8B200C0C534 /* HelpHandler.m */; };
+		06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA01EAEFAC200C0C534 /* HelpCommand.m */; };
+		06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */; };
+		06446CA71EAEFF8000C0C534 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA61EAEFF8000C0C534 /* CommandViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -319,6 +327,22 @@
 		06446C871EAEE86800C0C534 /* Congress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Congress.m; sourceTree = "<group>"; };
 		06446C891EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainOfResponsibilityViewController.h; sourceTree = "<group>"; };
 		06446C8A1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainOfResponsibilityViewController.m; sourceTree = "<group>"; };
+		06446C901EAEF78000C0C534 /* FBSettingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSettingWindow.h; sourceTree = "<group>"; };
+		06446C911EAEF78000C0C534 /* FBSettingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSettingWindow.m; sourceTree = "<group>"; };
+		06446C931EAEF7E500C0C534 /* FunctionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionButton.h; sourceTree = "<group>"; };
+		06446C941EAEF7E500C0C534 /* FunctionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionButton.m; sourceTree = "<group>"; };
+		06446C961EAEF82200C0C534 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		06446C971EAEF82200C0C534 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		06446C991EAEF89700C0C534 /* WindowHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowHandler.h; sourceTree = "<group>"; };
+		06446C9A1EAEF89700C0C534 /* WindowHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowHandler.m; sourceTree = "<group>"; };
+		06446C9C1EAEF8B200C0C534 /* HelpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpHandler.h; sourceTree = "<group>"; };
+		06446C9D1EAEF8B200C0C534 /* HelpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpHandler.m; sourceTree = "<group>"; };
+		06446C9F1EAEFAC200C0C534 /* HelpCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpCommand.h; sourceTree = "<group>"; };
+		06446CA01EAEFAC200C0C534 /* HelpCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpCommand.m; sourceTree = "<group>"; };
+		06446CA21EAEFB5300C0C534 /* MinimizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimizeCommand.h; sourceTree = "<group>"; };
+		06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimizeCommand.m; sourceTree = "<group>"; };
+		06446CA51EAEFF8000C0C534 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		06446CA61EAEFF8000C0C534 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -532,6 +556,11 @@
 		06446AC01EA6FCBA00C0C534 /* 15_Command */ = {
 			isa = PBXGroup;
 			children = (
+				06446C8C1EAEF6B800C0C534 /* Command */,
+				06446C8E1EAEF6B800C0C534 /* Invoker */,
+				06446C8F1EAEF6B800C0C534 /* Receiver */,
+				06446C901EAEF78000C0C534 /* FBSettingWindow.h */,
+				06446C911EAEF78000C0C534 /* FBSettingWindow.m */,
 			);
 			path = 15_Command;
 			sourceTree = "<group>";
@@ -879,6 +908,8 @@
 		06446B261EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446CA51EAEFF8000C0C534 /* CommandViewController.h */,
+				06446CA61EAEFF8000C0C534 /* CommandViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1483,6 +1514,47 @@
 			path = ConcreteHandler;
 			sourceTree = "<group>";
 		};
+		06446C8C1EAEF6B800C0C534 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				06446C8D1EAEF6B800C0C534 /* ConcreteCommand */,
+				06446C961EAEF82200C0C534 /* Command.h */,
+				06446C971EAEF82200C0C534 /* Command.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		06446C8D1EAEF6B800C0C534 /* ConcreteCommand */ = {
+			isa = PBXGroup;
+			children = (
+				06446C9F1EAEFAC200C0C534 /* HelpCommand.h */,
+				06446CA01EAEFAC200C0C534 /* HelpCommand.m */,
+				06446CA21EAEFB5300C0C534 /* MinimizeCommand.h */,
+				06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */,
+			);
+			path = ConcreteCommand;
+			sourceTree = "<group>";
+		};
+		06446C8E1EAEF6B800C0C534 /* Invoker */ = {
+			isa = PBXGroup;
+			children = (
+				06446C931EAEF7E500C0C534 /* FunctionButton.h */,
+				06446C941EAEF7E500C0C534 /* FunctionButton.m */,
+			);
+			path = Invoker;
+			sourceTree = "<group>";
+		};
+		06446C8F1EAEF6B800C0C534 /* Receiver */ = {
+			isa = PBXGroup;
+			children = (
+				06446C991EAEF89700C0C534 /* WindowHandler.h */,
+				06446C9A1EAEF89700C0C534 /* WindowHandler.m */,
+				06446C9C1EAEF8B200C0C534 /* HelpHandler.h */,
+				06446C9D1EAEF8B200C0C534 /* HelpHandler.m */,
+			);
+			path = Receiver;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1739,6 +1811,7 @@
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
 				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
+				06446C921EAEF78000C0C534 /* FBSettingWindow.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
@@ -1746,6 +1819,7 @@
 				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
+				06446C951EAEF7E500C0C534 /* FunctionButton.m in Sources */,
 				06446C591EADA19500C0C534 /* IgoChessmanFactory.m in Sources */,
 				06446C501EADA04600C0C534 /* IgoChessman.m in Sources */,
 				06446C7F1EAEE5C300C0C534 /* Director.m in Sources */,
@@ -1780,8 +1854,10 @@
 				06446C201EACF31400C0C534 /* DPWindow.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
+				06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */,
 				06446BE31EAC554700C0C534 /* DPImage.m in Sources */,
 				06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */,
+				06446C9E1EAEF8B200C0C534 /* HelpHandler.m in Sources */,
 				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
 				06446BE91EAC5A8800C0C534 /* WindowsImp.m in Sources */,
 				06446C321EACF56000C0C534 /* DecoratorViewController.m in Sources */,
@@ -1796,8 +1872,10 @@
 				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
+				06446C9B1EAEF89700C0C534 /* WindowHandler.m in Sources */,
 				06446C791EAEDDEB00C0C534 /* Approver.m in Sources */,
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
+				06446C981EAEF82200C0C534 /* Command.m in Sources */,
 				06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
@@ -1807,6 +1885,7 @@
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
 				06446C471EAD9B0100C0C534 /* FacadeViewController.m in Sources */,
+				06446CA71EAEFF8000C0C534 /* CommandViewController.m in Sources */,
 				06446BBE1EAB11C500C0C534 /* ActorBuilder.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,
@@ -1815,6 +1894,7 @@
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */,
+				06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,

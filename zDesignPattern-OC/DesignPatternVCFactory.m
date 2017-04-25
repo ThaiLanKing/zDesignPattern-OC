@@ -21,6 +21,7 @@
 #import "FlyweightViewController.h"
 #import "ProxyViewController.h"
 #import "ChainOfResponsibilityViewController.h"
+#import "CommandViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -72,6 +73,9 @@
     }
     else if ([patternChineseName isEqualToString:@"职责链模式"]) {
         designPatternVC = [[ChainOfResponsibilityViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"命令模式"]) {
+        designPatternVC = [[CommandViewController alloc] init];
     }
     
     if (designPatternVC) {
