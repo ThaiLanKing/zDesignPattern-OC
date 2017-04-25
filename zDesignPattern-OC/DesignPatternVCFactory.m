@@ -20,6 +20,7 @@
 #import "FacadeViewController.h"
 #import "FlyweightViewController.h"
 #import "ProxyViewController.h"
+#import "ChainOfResponsibilityViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -68,6 +69,9 @@
     }
     else if ([patternChineseName isEqualToString:@"代理模式"]) {
         designPatternVC = [[ProxyViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"职责链模式"]) {
+        designPatternVC = [[ChainOfResponsibilityViewController alloc] init];
     }
     
     if (designPatternVC) {

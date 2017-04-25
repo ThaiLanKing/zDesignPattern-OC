@@ -98,6 +98,13 @@
 		06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C6D1EADE0AC00C0C534 /* DPLogger.m */; };
 		06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C701EADE17E00C0C534 /* DPRealSearcher.m */; };
 		06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C731EADE22600C0C534 /* DPProxySearcher.m */; };
+		06446C791EAEDDEB00C0C534 /* Approver.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C781EAEDDEB00C0C534 /* Approver.m */; };
+		06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C7B1EAEE28E00C0C534 /* PurchaseRequest.m */; };
+		06446C7F1EAEE5C300C0C534 /* Director.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C7E1EAEE5C300C0C534 /* Director.m */; };
+		06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C811EAEE7C900C0C534 /* VicePresident.m */; };
+		06446C851EAEE82100C0C534 /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C841EAEE82100C0C534 /* President.m */; };
+		06446C881EAEE86800C0C534 /* Congress.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C871EAEE86800C0C534 /* Congress.m */; };
+		06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446C8A1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -298,6 +305,20 @@
 		06446C701EADE17E00C0C534 /* DPRealSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRealSearcher.m; sourceTree = "<group>"; };
 		06446C721EADE22600C0C534 /* DPProxySearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPProxySearcher.h; sourceTree = "<group>"; };
 		06446C731EADE22600C0C534 /* DPProxySearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPProxySearcher.m; sourceTree = "<group>"; };
+		06446C771EAEDDEB00C0C534 /* Approver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Approver.h; sourceTree = "<group>"; };
+		06446C781EAEDDEB00C0C534 /* Approver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Approver.m; sourceTree = "<group>"; };
+		06446C7A1EAEE28E00C0C534 /* PurchaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseRequest.h; sourceTree = "<group>"; };
+		06446C7B1EAEE28E00C0C534 /* PurchaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseRequest.m; sourceTree = "<group>"; };
+		06446C7D1EAEE5C300C0C534 /* Director.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Director.h; sourceTree = "<group>"; };
+		06446C7E1EAEE5C300C0C534 /* Director.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Director.m; sourceTree = "<group>"; };
+		06446C801EAEE7C900C0C534 /* VicePresident.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VicePresident.h; sourceTree = "<group>"; };
+		06446C811EAEE7C900C0C534 /* VicePresident.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VicePresident.m; sourceTree = "<group>"; };
+		06446C831EAEE82100C0C534 /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		06446C841EAEE82100C0C534 /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		06446C861EAEE86800C0C534 /* Congress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Congress.h; sourceTree = "<group>"; };
+		06446C871EAEE86800C0C534 /* Congress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Congress.m; sourceTree = "<group>"; };
+		06446C891EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainOfResponsibilityViewController.h; sourceTree = "<group>"; };
+		06446C8A1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainOfResponsibilityViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -501,6 +522,9 @@
 		06446ABF1EA6FCBA00C0C534 /* 14_ChainOfResponsibility */ = {
 			isa = PBXGroup;
 			children = (
+				06446C751EAEDD4700C0C534 /* Handler */,
+				06446C7A1EAEE28E00C0C534 /* PurchaseRequest.h */,
+				06446C7B1EAEE28E00C0C534 /* PurchaseRequest.m */,
 			);
 			path = 14_ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -838,6 +862,8 @@
 		06446B241EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446C891EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.h */,
+				06446C8A1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1432,6 +1458,31 @@
 			path = RealSubject;
 			sourceTree = "<group>";
 		};
+		06446C751EAEDD4700C0C534 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				06446C771EAEDDEB00C0C534 /* Approver.h */,
+				06446C781EAEDDEB00C0C534 /* Approver.m */,
+				06446C761EAEDD4700C0C534 /* ConcreteHandler */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		06446C761EAEDD4700C0C534 /* ConcreteHandler */ = {
+			isa = PBXGroup;
+			children = (
+				06446C7D1EAEE5C300C0C534 /* Director.h */,
+				06446C7E1EAEE5C300C0C534 /* Director.m */,
+				06446C801EAEE7C900C0C534 /* VicePresident.h */,
+				06446C811EAEE7C900C0C534 /* VicePresident.m */,
+				06446C831EAEE82100C0C534 /* President.h */,
+				06446C841EAEE82100C0C534 /* President.m */,
+				06446C861EAEE86800C0C534 /* Congress.h */,
+				06446C871EAEE86800C0C534 /* Congress.m */,
+			);
+			path = ConcreteHandler;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1687,6 +1738,7 @@
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
+				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
@@ -1696,10 +1748,13 @@
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
 				06446C591EADA19500C0C534 /* IgoChessmanFactory.m in Sources */,
 				06446C501EADA04600C0C534 /* IgoChessman.m in Sources */,
+				06446C7F1EAEE5C300C0C534 /* Director.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
+				06446C851EAEE82100C0C534 /* President.m in Sources */,
 				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
+				06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */,
 				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
 				06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */,
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
@@ -1720,6 +1775,7 @@
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
 				06446C411EAD956F00C0C534 /* DPFileWriter.m in Sources */,
+				06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */,
 				06446C161EACBB6000C0C534 /* CompositeViewController.m in Sources */,
 				06446C201EACF31400C0C534 /* DPWindow.m in Sources */,
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
@@ -1740,11 +1796,13 @@
 				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
 				06446B641EA75B9000C0C534 /* DPButton.m in Sources */,
+				06446C791EAEDDEB00C0C534 /* Approver.m in Sources */,
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
 				06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
+				06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
