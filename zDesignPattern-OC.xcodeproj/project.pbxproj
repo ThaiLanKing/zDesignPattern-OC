@@ -113,14 +113,20 @@
 		06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA01EAEFAC200C0C534 /* HelpCommand.m */; };
 		06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */; };
 		06446CA71EAEFF8000C0C534 /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CA61EAEFF8000C0C534 /* CommandViewController.m */; };
-		06446CAE1EAF2F5600C0C534 /* AbstractNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CAD1EAF2F5600C0C534 /* AbstractNode.m */; };
-		06446CB11EAF2FAB00C0C534 /* AndNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB01EAF2FAB00C0C534 /* AndNode.m */; };
-		06446CB41EAF3A6400C0C534 /* SentenceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB31EAF3A6400C0C534 /* SentenceNode.m */; };
-		06446CB71EAF3BE400C0C534 /* DirectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB61EAF3BE400C0C534 /* DirectionNode.m */; };
-		06446CBA1EAF3D8100C0C534 /* ActionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CB91EAF3D8100C0C534 /* ActionNode.m */; };
-		06446CBD1EAF3FCF00C0C534 /* DistanceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */; };
-		06446CC01EAF408C00C0C534 /* InstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CBF1EAF408C00C0C534 /* InstructionHandler.m */; };
 		06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CC21EAF470100C0C534 /* InterpreterViewController.m */; };
+		06446CDC1EAF555A00C0C534 /* AbstractNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CC71EAF555A00C0C534 /* AbstractNode.m */; };
+		06446CDD1EAF555A00C0C534 /* AndNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CCA1EAF555A00C0C534 /* AndNode.m */; };
+		06446CDE1EAF555A00C0C534 /* SentenceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CCC1EAF555A00C0C534 /* SentenceNode.m */; };
+		06446CDF1EAF555A00C0C534 /* ActionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CCF1EAF555A00C0C534 /* ActionNode.m */; };
+		06446CE01EAF555A00C0C534 /* DirectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CD11EAF555A00C0C534 /* DirectionNode.m */; };
+		06446CE11EAF555A00C0C534 /* DistanceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CD31EAF555A00C0C534 /* DistanceNode.m */; };
+		06446CE21EAF555A00C0C534 /* InstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CD61EAF555A00C0C534 /* InstructionHandler.m */; };
+		06446CE51EAF558A00C0C534 /* DPContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CE41EAF558A00C0C534 /* DPContext.m */; };
+		06446CE81EB0300200C0C534 /* DPNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CE71EB0300200C0C534 /* DPNode.m */; };
+		06446CEB1EB030AD00C0C534 /* ExpressionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CEA1EB030AD00C0C534 /* ExpressionNode.m */; };
+		06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CED1EB0332000C0C534 /* CommandNode.m */; };
+		06446CF11EB033CC00C0C534 /* LoopCommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CF01EB033CC00C0C534 /* LoopCommandNode.m */; };
+		06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CF31EB0395500C0C534 /* PrimitiveCommandNode.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -351,22 +357,34 @@
 		06446CA31EAEFB5300C0C534 /* MinimizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimizeCommand.m; sourceTree = "<group>"; };
 		06446CA51EAEFF8000C0C534 /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
 		06446CA61EAEFF8000C0C534 /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
-		06446CAC1EAF2F5600C0C534 /* AbstractNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNode.h; sourceTree = "<group>"; };
-		06446CAD1EAF2F5600C0C534 /* AbstractNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractNode.m; sourceTree = "<group>"; };
-		06446CAF1EAF2FAB00C0C534 /* AndNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndNode.h; sourceTree = "<group>"; };
-		06446CB01EAF2FAB00C0C534 /* AndNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndNode.m; sourceTree = "<group>"; };
-		06446CB21EAF3A6400C0C534 /* SentenceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceNode.h; sourceTree = "<group>"; };
-		06446CB31EAF3A6400C0C534 /* SentenceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceNode.m; sourceTree = "<group>"; };
-		06446CB51EAF3BE400C0C534 /* DirectionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionNode.h; sourceTree = "<group>"; };
-		06446CB61EAF3BE400C0C534 /* DirectionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionNode.m; sourceTree = "<group>"; };
-		06446CB81EAF3D8100C0C534 /* ActionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionNode.h; sourceTree = "<group>"; };
-		06446CB91EAF3D8100C0C534 /* ActionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionNode.m; sourceTree = "<group>"; };
-		06446CBB1EAF3FCF00C0C534 /* DistanceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceNode.h; sourceTree = "<group>"; };
-		06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceNode.m; sourceTree = "<group>"; };
-		06446CBE1EAF408C00C0C534 /* InstructionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionHandler.h; sourceTree = "<group>"; };
-		06446CBF1EAF408C00C0C534 /* InstructionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionHandler.m; sourceTree = "<group>"; };
 		06446CC11EAF470100C0C534 /* InterpreterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterpreterViewController.h; sourceTree = "<group>"; };
 		06446CC21EAF470100C0C534 /* InterpreterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterpreterViewController.m; sourceTree = "<group>"; };
+		06446CC61EAF555A00C0C534 /* AbstractNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractNode.h; sourceTree = "<group>"; };
+		06446CC71EAF555A00C0C534 /* AbstractNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractNode.m; sourceTree = "<group>"; };
+		06446CC91EAF555A00C0C534 /* AndNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndNode.h; sourceTree = "<group>"; };
+		06446CCA1EAF555A00C0C534 /* AndNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndNode.m; sourceTree = "<group>"; };
+		06446CCB1EAF555A00C0C534 /* SentenceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentenceNode.h; sourceTree = "<group>"; };
+		06446CCC1EAF555A00C0C534 /* SentenceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentenceNode.m; sourceTree = "<group>"; };
+		06446CCE1EAF555A00C0C534 /* ActionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionNode.h; sourceTree = "<group>"; };
+		06446CCF1EAF555A00C0C534 /* ActionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionNode.m; sourceTree = "<group>"; };
+		06446CD01EAF555A00C0C534 /* DirectionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionNode.h; sourceTree = "<group>"; };
+		06446CD11EAF555A00C0C534 /* DirectionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionNode.m; sourceTree = "<group>"; };
+		06446CD21EAF555A00C0C534 /* DistanceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceNode.h; sourceTree = "<group>"; };
+		06446CD31EAF555A00C0C534 /* DistanceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceNode.m; sourceTree = "<group>"; };
+		06446CD51EAF555A00C0C534 /* InstructionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionHandler.h; sourceTree = "<group>"; };
+		06446CD61EAF555A00C0C534 /* InstructionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionHandler.m; sourceTree = "<group>"; };
+		06446CE31EAF558A00C0C534 /* DPContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPContext.h; sourceTree = "<group>"; };
+		06446CE41EAF558A00C0C534 /* DPContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPContext.m; sourceTree = "<group>"; };
+		06446CE61EB0300200C0C534 /* DPNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPNode.h; sourceTree = "<group>"; };
+		06446CE71EB0300200C0C534 /* DPNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPNode.m; sourceTree = "<group>"; };
+		06446CE91EB030AD00C0C534 /* ExpressionNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionNode.h; sourceTree = "<group>"; };
+		06446CEA1EB030AD00C0C534 /* ExpressionNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionNode.m; sourceTree = "<group>"; };
+		06446CEC1EB0332000C0C534 /* CommandNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandNode.h; sourceTree = "<group>"; };
+		06446CED1EB0332000C0C534 /* CommandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandNode.m; sourceTree = "<group>"; };
+		06446CEF1EB033CC00C0C534 /* LoopCommandNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopCommandNode.h; sourceTree = "<group>"; };
+		06446CF01EB033CC00C0C534 /* LoopCommandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopCommandNode.m; sourceTree = "<group>"; };
+		06446CF21EB0395500C0C534 /* PrimitiveCommandNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitiveCommandNode.h; sourceTree = "<group>"; };
+		06446CF31EB0395500C0C534 /* PrimitiveCommandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitiveCommandNode.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -592,10 +610,8 @@
 		06446AC11EA6FCBA00C0C534 /* 16_Interpreter */ = {
 			isa = PBXGroup;
 			children = (
-				06446CA81EAF2EFF00C0C534 /* AbstractExpression */,
-				06446CAB1EAF2EFF00C0C534 /* Context */,
-				06446CBE1EAF408C00C0C534 /* InstructionHandler.h */,
-				06446CBF1EAF408C00C0C534 /* InstructionHandler.m */,
+				06446CC41EAF555A00C0C534 /* Sample1 */,
+				06446CD71EAF555A00C0C534 /* Sample2 */,
 			);
 			path = 16_Interpreter;
 			sourceTree = "<group>";
@@ -1585,44 +1601,106 @@
 			path = Receiver;
 			sourceTree = "<group>";
 		};
-		06446CA81EAF2EFF00C0C534 /* AbstractExpression */ = {
+		06446CC41EAF555A00C0C534 /* Sample1 */ = {
 			isa = PBXGroup;
 			children = (
-				06446CAC1EAF2F5600C0C534 /* AbstractNode.h */,
-				06446CAD1EAF2F5600C0C534 /* AbstractNode.m */,
-				06446CA91EAF2EFF00C0C534 /* NonterminalExpression */,
-				06446CAA1EAF2EFF00C0C534 /* TerminalExpression */,
+				06446CC51EAF555A00C0C534 /* AbstractExpression */,
+				06446CD41EAF555A00C0C534 /* Context */,
+				06446CD51EAF555A00C0C534 /* InstructionHandler.h */,
+				06446CD61EAF555A00C0C534 /* InstructionHandler.m */,
+			);
+			path = Sample1;
+			sourceTree = "<group>";
+		};
+		06446CC51EAF555A00C0C534 /* AbstractExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CC61EAF555A00C0C534 /* AbstractNode.h */,
+				06446CC71EAF555A00C0C534 /* AbstractNode.m */,
+				06446CC81EAF555A00C0C534 /* NonterminalExpression */,
+				06446CCD1EAF555A00C0C534 /* TerminalExpression */,
 			);
 			path = AbstractExpression;
 			sourceTree = "<group>";
 		};
-		06446CA91EAF2EFF00C0C534 /* NonterminalExpression */ = {
+		06446CC81EAF555A00C0C534 /* NonterminalExpression */ = {
 			isa = PBXGroup;
 			children = (
-				06446CAF1EAF2FAB00C0C534 /* AndNode.h */,
-				06446CB01EAF2FAB00C0C534 /* AndNode.m */,
-				06446CB21EAF3A6400C0C534 /* SentenceNode.h */,
-				06446CB31EAF3A6400C0C534 /* SentenceNode.m */,
+				06446CC91EAF555A00C0C534 /* AndNode.h */,
+				06446CCA1EAF555A00C0C534 /* AndNode.m */,
+				06446CCB1EAF555A00C0C534 /* SentenceNode.h */,
+				06446CCC1EAF555A00C0C534 /* SentenceNode.m */,
 			);
 			path = NonterminalExpression;
 			sourceTree = "<group>";
 		};
-		06446CAA1EAF2EFF00C0C534 /* TerminalExpression */ = {
+		06446CCD1EAF555A00C0C534 /* TerminalExpression */ = {
 			isa = PBXGroup;
 			children = (
-				06446CB51EAF3BE400C0C534 /* DirectionNode.h */,
-				06446CB61EAF3BE400C0C534 /* DirectionNode.m */,
-				06446CB81EAF3D8100C0C534 /* ActionNode.h */,
-				06446CB91EAF3D8100C0C534 /* ActionNode.m */,
-				06446CBB1EAF3FCF00C0C534 /* DistanceNode.h */,
-				06446CBC1EAF3FCF00C0C534 /* DistanceNode.m */,
+				06446CCE1EAF555A00C0C534 /* ActionNode.h */,
+				06446CCF1EAF555A00C0C534 /* ActionNode.m */,
+				06446CD01EAF555A00C0C534 /* DirectionNode.h */,
+				06446CD11EAF555A00C0C534 /* DirectionNode.m */,
+				06446CD21EAF555A00C0C534 /* DistanceNode.h */,
+				06446CD31EAF555A00C0C534 /* DistanceNode.m */,
 			);
 			path = TerminalExpression;
 			sourceTree = "<group>";
 		};
-		06446CAB1EAF2EFF00C0C534 /* Context */ = {
+		06446CD41EAF555A00C0C534 /* Context */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		06446CD71EAF555A00C0C534 /* Sample2 */ = {
+			isa = PBXGroup;
+			children = (
+				06446CD81EAF555A00C0C534 /* AbstractExpression */,
+				06446CDB1EAF555A00C0C534 /* Context */,
+			);
+			path = Sample2;
+			sourceTree = "<group>";
+		};
+		06446CD81EAF555A00C0C534 /* AbstractExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CD91EAF555A00C0C534 /* NonterminalExpression */,
+				06446CDA1EAF555A00C0C534 /* TerminalExpression */,
+				06446CE61EB0300200C0C534 /* DPNode.h */,
+				06446CE71EB0300200C0C534 /* DPNode.m */,
+			);
+			path = AbstractExpression;
+			sourceTree = "<group>";
+		};
+		06446CD91EAF555A00C0C534 /* NonterminalExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CE91EB030AD00C0C534 /* ExpressionNode.h */,
+				06446CEA1EB030AD00C0C534 /* ExpressionNode.m */,
+				06446CEC1EB0332000C0C534 /* CommandNode.h */,
+				06446CED1EB0332000C0C534 /* CommandNode.m */,
+				06446CEF1EB033CC00C0C534 /* LoopCommandNode.h */,
+				06446CF01EB033CC00C0C534 /* LoopCommandNode.m */,
+			);
+			path = NonterminalExpression;
+			sourceTree = "<group>";
+		};
+		06446CDA1EAF555A00C0C534 /* TerminalExpression */ = {
+			isa = PBXGroup;
+			children = (
+				06446CF21EB0395500C0C534 /* PrimitiveCommandNode.h */,
+				06446CF31EB0395500C0C534 /* PrimitiveCommandNode.m */,
+			);
+			path = TerminalExpression;
+			sourceTree = "<group>";
+		};
+		06446CDB1EAF555A00C0C534 /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				06446CE31EAF558A00C0C534 /* DPContext.h */,
+				06446CE41EAF558A00C0C534 /* DPContext.m */,
 			);
 			path = Context;
 			sourceTree = "<group>";
@@ -1872,8 +1950,6 @@
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
-				06446CC01EAF408C00C0C534 /* InstructionHandler.m in Sources */,
-				06446CAE1EAF2F5600C0C534 /* AbstractNode.m in Sources */,
 				06446C651EADDE7D00C0C534 /* ProxyViewController.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
@@ -1890,7 +1966,6 @@
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
-				06446CB11EAF2FAB00C0C534 /* AndNode.m in Sources */,
 				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
 				06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */,
@@ -1899,10 +1974,13 @@
 				06446C501EADA04600C0C534 /* IgoChessman.m in Sources */,
 				06446C7F1EAEE5C300C0C534 /* Director.m in Sources */,
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
+				06446CE51EAF558A00C0C534 /* DPContext.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
 				06446C851EAEE82100C0C534 /* President.m in Sources */,
 				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
+				06446CDD1EAF555A00C0C534 /* AndNode.m in Sources */,
+				06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */,
 				06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */,
 				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
 				06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */,
@@ -1911,9 +1989,12 @@
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
+				06446CEB1EB030AD00C0C534 /* ExpressionNode.m in Sources */,
 				06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
+				06446CDC1EAF555A00C0C534 /* AbstractNode.m in Sources */,
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
+				06446CF11EB033CC00C0C534 /* LoopCommandNode.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
 				06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */,
 				06446C681EADDF3F00C0C534 /* DPSearcher.m in Sources */,
@@ -1923,7 +2004,6 @@
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
-				06446CB71EAF3BE400C0C534 /* DirectionNode.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
 				06446C411EAD956F00C0C534 /* DPFileWriter.m in Sources */,
 				06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */,
@@ -1954,32 +2034,36 @@
 				06446BEF1EAC5B1800C0C534 /* UnixImp.m in Sources */,
 				06446C981EAEF82200C0C534 /* Command.m in Sources */,
 				06446C741EADE22600C0C534 /* DPProxySearcher.m in Sources */,
+				06446CE81EB0300200C0C534 /* DPNode.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
 				06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
+				06446CE11EAF555A00C0C534 /* DistanceNode.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
 				06446ACF1EA712D600C0C534 /* Chart.m in Sources */,
 				06446C471EAD9B0100C0C534 /* FacadeViewController.m in Sources */,
+				06446CE01EAF555A00C0C534 /* DirectionNode.m in Sources */,
 				06446CA71EAEFF8000C0C534 /* CommandViewController.m in Sources */,
 				06446BBE1EAB11C500C0C534 /* ActorBuilder.m in Sources */,
 				06446B731EA75CF300C0C534 /* DPTextField.m in Sources */,
 				06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */,
 				06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */,
-				06446CBD1EAF3FCF00C0C534 /* DistanceNode.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
+				06446CDE1EAF555A00C0C534 /* SentenceNode.m in Sources */,
+				06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
-				06446CB41EAF3A6400C0C534 /* SentenceNode.m in Sources */,
 				06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */,
 				06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
-				06446CBA1EAF3D8100C0C534 /* ActionNode.m in Sources */,
+				06446CDF1EAF555A00C0C534 /* ActionNode.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
+				06446CE21EAF555A00C0C534 /* InstructionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

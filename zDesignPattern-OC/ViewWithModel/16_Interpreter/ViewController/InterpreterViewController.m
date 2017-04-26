@@ -8,6 +8,7 @@
 
 #import "InterpreterViewController.h"
 #import "InstructionHandler.h"
+#import "ExpressionNode.h"
 
 @interface InterpreterViewController ()
 
@@ -31,6 +32,15 @@
     InstructionHandler *handler = [InstructionHandler new];
     [handler handle:instruction];
     NSLog(@"%@", [handler output]);
+    
+    NSLog(@"------sample2");
+    
+    NSString *text = @"LOOP 2 PRINT 杨过 SPACE SPACE PRINT 小龙女 BREAK END PRINT 郭靖 SPACE SPACE PRINT 黄蓉";
+    DPContext *context = [[DPContext alloc] initWithText:text];
+    
+    DPNode *node = [ExpressionNode new];
+    [node interpret:context];
+    [node execute];
 }
 
 @end
