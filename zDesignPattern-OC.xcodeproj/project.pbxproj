@@ -132,6 +132,14 @@
 		06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D2C1EB1A4E200C0C534 /* AbstractIterator.m */; };
 		06446D301EB1A5CF00C0C534 /* ProductIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D2F1EB1A5CF00C0C534 /* ProductIterator.m */; };
 		06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D321EB1C72200C0C534 /* IteratorViewController.m */; };
+		06446D3A1EB1D0BB00C0C534 /* Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D391EB1D0BB00C0C534 /* Mediator.m */; };
+		06446D3D1EB1D0EC00C0C534 /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D3C1EB1D0EC00C0C534 /* ConcreteMediator.m */; };
+		06446D401EB1D14800C0C534 /* DPMComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D3F1EB1D14800C0C534 /* DPMComponent.m */; };
+		06446D431EB1D55200C0C534 /* DPMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D421EB1D55200C0C534 /* DPMButton.m */; };
+		06446D461EB1D57F00C0C534 /* DPMList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D451EB1D57F00C0C534 /* DPMList.m */; };
+		06446D491EB1D5F400C0C534 /* DPMComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D481EB1D5F400C0C534 /* DPMComboBox.m */; };
+		06446D4C1EB1D64800C0C534 /* DPMTextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D4B1EB1D64800C0C534 /* DPMTextBox.m */; };
+		06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D4E1EB1D85300C0C534 /* MediatorViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -400,6 +408,22 @@
 		06446D2F1EB1A5CF00C0C534 /* ProductIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductIterator.m; sourceTree = "<group>"; };
 		06446D311EB1C72200C0C534 /* IteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
 		06446D321EB1C72200C0C534 /* IteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
+		06446D381EB1D0BB00C0C534 /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
+		06446D391EB1D0BB00C0C534 /* Mediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mediator.m; sourceTree = "<group>"; };
+		06446D3B1EB1D0EC00C0C534 /* ConcreteMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteMediator.h; sourceTree = "<group>"; };
+		06446D3C1EB1D0EC00C0C534 /* ConcreteMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteMediator.m; sourceTree = "<group>"; };
+		06446D3E1EB1D14800C0C534 /* DPMComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMComponent.h; sourceTree = "<group>"; };
+		06446D3F1EB1D14800C0C534 /* DPMComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMComponent.m; sourceTree = "<group>"; };
+		06446D411EB1D55200C0C534 /* DPMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMButton.h; sourceTree = "<group>"; };
+		06446D421EB1D55200C0C534 /* DPMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMButton.m; sourceTree = "<group>"; };
+		06446D441EB1D57F00C0C534 /* DPMList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMList.h; sourceTree = "<group>"; };
+		06446D451EB1D57F00C0C534 /* DPMList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMList.m; sourceTree = "<group>"; };
+		06446D471EB1D5F400C0C534 /* DPMComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMComboBox.h; sourceTree = "<group>"; };
+		06446D481EB1D5F400C0C534 /* DPMComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMComboBox.m; sourceTree = "<group>"; };
+		06446D4A1EB1D64800C0C534 /* DPMTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPMTextBox.h; sourceTree = "<group>"; };
+		06446D4B1EB1D64800C0C534 /* DPMTextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMTextBox.m; sourceTree = "<group>"; };
+		06446D4D1EB1D85300C0C534 /* MediatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorViewController.h; sourceTree = "<group>"; };
+		06446D4E1EB1D85300C0C534 /* MediatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -643,6 +667,8 @@
 		06446AC31EA6FCBA00C0C534 /* 18_Mediator */ = {
 			isa = PBXGroup;
 			children = (
+				06446D341EB1CFD800C0C534 /* Colleague */,
+				06446D361EB1CFD800C0C534 /* Mediator */,
 			);
 			path = 18_Mediator;
 			sourceTree = "<group>";
@@ -1020,6 +1046,8 @@
 		06446B2C1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446D4D1EB1D85300C0C534 /* MediatorViewController.h */,
+				06446D4E1EB1D85300C0C534 /* MediatorViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1762,6 +1790,50 @@
 			path = ConcreteIterator;
 			sourceTree = "<group>";
 		};
+		06446D341EB1CFD800C0C534 /* Colleague */ = {
+			isa = PBXGroup;
+			children = (
+				06446D351EB1CFD800C0C534 /* ConcreteColleague */,
+				06446D3E1EB1D14800C0C534 /* DPMComponent.h */,
+				06446D3F1EB1D14800C0C534 /* DPMComponent.m */,
+			);
+			path = Colleague;
+			sourceTree = "<group>";
+		};
+		06446D351EB1CFD800C0C534 /* ConcreteColleague */ = {
+			isa = PBXGroup;
+			children = (
+				06446D411EB1D55200C0C534 /* DPMButton.h */,
+				06446D421EB1D55200C0C534 /* DPMButton.m */,
+				06446D441EB1D57F00C0C534 /* DPMList.h */,
+				06446D451EB1D57F00C0C534 /* DPMList.m */,
+				06446D471EB1D5F400C0C534 /* DPMComboBox.h */,
+				06446D481EB1D5F400C0C534 /* DPMComboBox.m */,
+				06446D4A1EB1D64800C0C534 /* DPMTextBox.h */,
+				06446D4B1EB1D64800C0C534 /* DPMTextBox.m */,
+			);
+			path = ConcreteColleague;
+			sourceTree = "<group>";
+		};
+		06446D361EB1CFD800C0C534 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				06446D371EB1CFD800C0C534 /* ConcreteMediator */,
+				06446D381EB1D0BB00C0C534 /* Mediator.h */,
+				06446D391EB1D0BB00C0C534 /* Mediator.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		06446D371EB1CFD800C0C534 /* ConcreteMediator */ = {
+			isa = PBXGroup;
+			children = (
+				06446D3B1EB1D0EC00C0C534 /* ConcreteMediator.h */,
+				06446D3C1EB1D0EC00C0C534 /* ConcreteMediator.m */,
+			);
+			path = ConcreteMediator;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2002,6 +2074,7 @@
 			files = (
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
+				06446D491EB1D5F400C0C534 /* DPMComboBox.m in Sources */,
 				06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
 				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
@@ -2015,12 +2088,14 @@
 				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
 				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
+				06446D431EB1D55200C0C534 /* DPMButton.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
 				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
 				06446C921EAEF78000C0C534 /* FBSettingWindow.m in Sources */,
+				06446D3D1EB1D0EC00C0C534 /* ConcreteMediator.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
@@ -2035,6 +2110,7 @@
 				062E2C8D1EA49E760040DD85 /* DesignPatternCollectionViewCell.m in Sources */,
 				06446CE51EAF558A00C0C534 /* DPContext.m in Sources */,
 				06446B3E1EA7336A00C0C534 /* SimpleFactoryViewController.m in Sources */,
+				06446D3A1EB1D0BB00C0C534 /* Mediator.m in Sources */,
 				06446C851EAEE82100C0C534 /* President.m in Sources */,
 				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
@@ -2053,6 +2129,7 @@
 				06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
 				06446CDC1EAF555A00C0C534 /* AbstractNode.m in Sources */,
+				06446D4C1EB1D64800C0C534 /* DPMTextBox.m in Sources */,
 				06446B4E1EA74D6500C0C534 /* FileLogger.m in Sources */,
 				06446CF11EB033CC00C0C534 /* LoopCommandNode.m in Sources */,
 				06A7EAD41E9A3B5D0054D69D /* main.m in Sources */,
@@ -2060,6 +2137,7 @@
 				06446C681EADDF3F00C0C534 /* DPSearcher.m in Sources */,
 				06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */,
 				06446C2F1EACF4D900C0C534 /* BlackBorderDecorator.m in Sources */,
+				06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */,
 				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
@@ -2081,6 +2159,7 @@
 				06446C231EACF34600C0C534 /* DPTextBox.m in Sources */,
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
+				06446D461EB1D57F00C0C534 /* DPMList.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
@@ -2125,6 +2204,7 @@
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
+				06446D401EB1D14800C0C534 /* DPMComponent.m in Sources */,
 				06446CE21EAF555A00C0C534 /* InstructionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

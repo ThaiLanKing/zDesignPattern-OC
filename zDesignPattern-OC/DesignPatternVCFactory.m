@@ -24,6 +24,7 @@
 #import "CommandViewController.h"
 #import "InterpreterViewController.h"
 #import "IteratorViewController.h"
+#import "MediatorViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -84,6 +85,9 @@
     }
     else if ([patternChineseName isEqualToString:@"迭代器模式"]) {
         designPatternVC = [[IteratorViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"中介者模式"]) {
+        designPatternVC = [[MediatorViewController alloc] init];
     }
     
     if (designPatternVC) {
