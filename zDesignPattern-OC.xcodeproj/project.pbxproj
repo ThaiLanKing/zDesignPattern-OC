@@ -140,6 +140,10 @@
 		06446D491EB1D5F400C0C534 /* DPMComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D481EB1D5F400C0C534 /* DPMComboBox.m */; };
 		06446D4C1EB1D64800C0C534 /* DPMTextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D4B1EB1D64800C0C534 /* DPMTextBox.m */; };
 		06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D4E1EB1D85300C0C534 /* MediatorViewController.m */; };
+		06446D551EB1E3E700C0C534 /* DPChessman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D541EB1E3E700C0C534 /* DPChessman.m */; };
+		06446D581EB1ED4800C0C534 /* ChessmanMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D571EB1ED4800C0C534 /* ChessmanMemento.m */; };
+		06446D5B1EB1F0C500C0C534 /* MementoCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D5A1EB1F0C500C0C534 /* MementoCaretaker.m */; };
+		06446D5E1EB1F15400C0C534 /* MementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D5D1EB1F15400C0C534 /* MementoViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -424,6 +428,14 @@
 		06446D4B1EB1D64800C0C534 /* DPMTextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPMTextBox.m; sourceTree = "<group>"; };
 		06446D4D1EB1D85300C0C534 /* MediatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediatorViewController.h; sourceTree = "<group>"; };
 		06446D4E1EB1D85300C0C534 /* MediatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediatorViewController.m; sourceTree = "<group>"; };
+		06446D531EB1E3E700C0C534 /* DPChessman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPChessman.h; sourceTree = "<group>"; };
+		06446D541EB1E3E700C0C534 /* DPChessman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPChessman.m; sourceTree = "<group>"; };
+		06446D561EB1ED4800C0C534 /* ChessmanMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessmanMemento.h; sourceTree = "<group>"; };
+		06446D571EB1ED4800C0C534 /* ChessmanMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessmanMemento.m; sourceTree = "<group>"; };
+		06446D591EB1F0C500C0C534 /* MementoCaretaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoCaretaker.h; sourceTree = "<group>"; };
+		06446D5A1EB1F0C500C0C534 /* MementoCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoCaretaker.m; sourceTree = "<group>"; };
+		06446D5C1EB1F15400C0C534 /* MementoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoViewController.h; sourceTree = "<group>"; };
+		06446D5D1EB1F15400C0C534 /* MementoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -676,6 +688,9 @@
 		06446AC41EA6FCBA00C0C534 /* 19_Memento */ = {
 			isa = PBXGroup;
 			children = (
+				06446D501EB1E36A00C0C534 /* Caretaker */,
+				06446D511EB1E36A00C0C534 /* Memento */,
+				06446D521EB1E36A00C0C534 /* Originator */,
 			);
 			path = 19_Memento;
 			sourceTree = "<group>";
@@ -1063,6 +1078,8 @@
 		06446B2E1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446D5C1EB1F15400C0C534 /* MementoViewController.h */,
+				06446D5D1EB1F15400C0C534 /* MementoViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1834,6 +1851,33 @@
 			path = ConcreteMediator;
 			sourceTree = "<group>";
 		};
+		06446D501EB1E36A00C0C534 /* Caretaker */ = {
+			isa = PBXGroup;
+			children = (
+				06446D591EB1F0C500C0C534 /* MementoCaretaker.h */,
+				06446D5A1EB1F0C500C0C534 /* MementoCaretaker.m */,
+			);
+			path = Caretaker;
+			sourceTree = "<group>";
+		};
+		06446D511EB1E36A00C0C534 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				06446D561EB1ED4800C0C534 /* ChessmanMemento.h */,
+				06446D571EB1ED4800C0C534 /* ChessmanMemento.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		06446D521EB1E36A00C0C534 /* Originator */ = {
+			isa = PBXGroup;
+			children = (
+				06446D531EB1E3E700C0C534 /* DPChessman.h */,
+				06446D541EB1E3E700C0C534 /* DPChessman.m */,
+			);
+			path = Originator;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2115,6 +2159,7 @@
 				06446C0D1EACB84C00C0C534 /* DPTextFile.m in Sources */,
 				06446B8F1EA762CD00C0C534 /* SummerSkinFactory.m in Sources */,
 				06446CDD1EAF555A00C0C534 /* AndNode.m in Sources */,
+				06446D581EB1ED4800C0C534 /* ChessmanMemento.m in Sources */,
 				06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */,
 				06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */,
 				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
@@ -2138,8 +2183,10 @@
 				06446B8C1EA762B800C0C534 /* SpringSkinFactory.m in Sources */,
 				06446C2F1EACF4D900C0C534 /* BlackBorderDecorator.m in Sources */,
 				06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */,
+				06446D551EB1E3E700C0C534 /* DPChessman.m in Sources */,
 				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
+				06446D5E1EB1F15400C0C534 /* MementoViewController.m in Sources */,
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
 				06446B891EA75F0600C0C534 /* SkinFactory.m in Sources */,
 				06446B7A1EA75D4200C0C534 /* SummerButton.m in Sources */,
@@ -2177,6 +2224,7 @@
 				06446CE81EB0300200C0C534 /* DPNode.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
+				06446D5B1EB1F0C500C0C534 /* MementoCaretaker.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
 				06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
