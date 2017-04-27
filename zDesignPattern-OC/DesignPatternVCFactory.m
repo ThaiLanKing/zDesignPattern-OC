@@ -23,6 +23,7 @@
 #import "ChainOfResponsibilityViewController.h"
 #import "CommandViewController.h"
 #import "InterpreterViewController.h"
+#import "IteratorViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -80,6 +81,9 @@
     }
     else if ([patternChineseName isEqualToString:@"解释器模式"]) {
         designPatternVC = [[InterpreterViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"迭代器模式"]) {
+        designPatternVC = [[IteratorViewController alloc] init];
     }
     
     if (designPatternVC) {

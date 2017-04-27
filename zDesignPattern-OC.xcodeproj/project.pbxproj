@@ -127,6 +127,11 @@
 		06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CED1EB0332000C0C534 /* CommandNode.m */; };
 		06446CF11EB033CC00C0C534 /* LoopCommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CF01EB033CC00C0C534 /* LoopCommandNode.m */; };
 		06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446CF31EB0395500C0C534 /* PrimitiveCommandNode.m */; };
+		06446D271EB1A2B500C0C534 /* AbstractObjectList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D261EB1A2B500C0C534 /* AbstractObjectList.m */; };
+		06446D2A1EB1A38100C0C534 /* ProductList.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D291EB1A38100C0C534 /* ProductList.m */; };
+		06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D2C1EB1A4E200C0C534 /* AbstractIterator.m */; };
+		06446D301EB1A5CF00C0C534 /* ProductIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D2F1EB1A5CF00C0C534 /* ProductIterator.m */; };
+		06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D321EB1C72200C0C534 /* IteratorViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -385,6 +390,16 @@
 		06446CF01EB033CC00C0C534 /* LoopCommandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopCommandNode.m; sourceTree = "<group>"; };
 		06446CF21EB0395500C0C534 /* PrimitiveCommandNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimitiveCommandNode.h; sourceTree = "<group>"; };
 		06446CF31EB0395500C0C534 /* PrimitiveCommandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimitiveCommandNode.m; sourceTree = "<group>"; };
+		06446D251EB1A2B400C0C534 /* AbstractObjectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractObjectList.h; sourceTree = "<group>"; };
+		06446D261EB1A2B500C0C534 /* AbstractObjectList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractObjectList.m; sourceTree = "<group>"; };
+		06446D281EB1A38100C0C534 /* ProductList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductList.h; sourceTree = "<group>"; };
+		06446D291EB1A38100C0C534 /* ProductList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductList.m; sourceTree = "<group>"; };
+		06446D2B1EB1A4E200C0C534 /* AbstractIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractIterator.h; sourceTree = "<group>"; };
+		06446D2C1EB1A4E200C0C534 /* AbstractIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractIterator.m; sourceTree = "<group>"; };
+		06446D2E1EB1A5CF00C0C534 /* ProductIterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductIterator.h; sourceTree = "<group>"; };
+		06446D2F1EB1A5CF00C0C534 /* ProductIterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductIterator.m; sourceTree = "<group>"; };
+		06446D311EB1C72200C0C534 /* IteratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IteratorViewController.h; sourceTree = "<group>"; };
+		06446D321EB1C72200C0C534 /* IteratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IteratorViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -619,6 +634,8 @@
 		06446AC21EA6FCBA00C0C534 /* 17_Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				06446D211EB19F7F00C0C534 /* Aggregate */,
+				06446D231EB19F7F00C0C534 /* Iterator */,
 			);
 			path = 17_Iterator;
 			sourceTree = "<group>";
@@ -986,6 +1003,8 @@
 		06446B2A1EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446D311EB1C72200C0C534 /* IteratorViewController.h */,
+				06446D321EB1C72200C0C534 /* IteratorViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1705,6 +1724,44 @@
 			path = Context;
 			sourceTree = "<group>";
 		};
+		06446D211EB19F7F00C0C534 /* Aggregate */ = {
+			isa = PBXGroup;
+			children = (
+				06446D221EB19F7F00C0C534 /* ConcreteAggregate */,
+				06446D251EB1A2B400C0C534 /* AbstractObjectList.h */,
+				06446D261EB1A2B500C0C534 /* AbstractObjectList.m */,
+			);
+			path = Aggregate;
+			sourceTree = "<group>";
+		};
+		06446D221EB19F7F00C0C534 /* ConcreteAggregate */ = {
+			isa = PBXGroup;
+			children = (
+				06446D281EB1A38100C0C534 /* ProductList.h */,
+				06446D291EB1A38100C0C534 /* ProductList.m */,
+			);
+			path = ConcreteAggregate;
+			sourceTree = "<group>";
+		};
+		06446D231EB19F7F00C0C534 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				06446D241EB19F7F00C0C534 /* ConcreteIterator */,
+				06446D2B1EB1A4E200C0C534 /* AbstractIterator.h */,
+				06446D2C1EB1A4E200C0C534 /* AbstractIterator.m */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		06446D241EB19F7F00C0C534 /* ConcreteIterator */ = {
+			isa = PBXGroup;
+			children = (
+				06446D2E1EB1A5CF00C0C534 /* ProductIterator.h */,
+				06446D2F1EB1A5CF00C0C534 /* ProductIterator.m */,
+			);
+			path = ConcreteIterator;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -1945,6 +2002,7 @@
 			files = (
 				06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */,
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
+				06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
 				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
@@ -1954,6 +2012,7 @@
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
+				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
 				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
@@ -1989,6 +2048,7 @@
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
+				06446D271EB1A2B500C0C534 /* AbstractObjectList.m in Sources */,
 				06446CEB1EB030AD00C0C534 /* ExpressionNode.m in Sources */,
 				06446C561EADA13500C0C534 /* WhiteIgoChessman.m in Sources */,
 				06446B511EA74DA800C0C534 /* LoggerFactory.m in Sources */,
@@ -2025,6 +2085,7 @@
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
 				06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */,
+				06446D301EB1A5CF00C0C534 /* ProductIterator.m in Sources */,
 				06446C261EACF37300C0C534 /* DPListBox.m in Sources */,
 				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
@@ -2052,6 +2113,7 @@
 				06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
+				06446D2A1EB1A38100C0C534 /* ProductList.m in Sources */,
 				06446CDE1EAF555A00C0C534 /* SentenceNode.m in Sources */,
 				06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
