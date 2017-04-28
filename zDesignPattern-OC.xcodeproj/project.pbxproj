@@ -174,6 +174,14 @@
 		067491C01EB32C7F003C380D /* CurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491BF1EB32C7F003C380D /* CurrentAccount.m */; };
 		067491C31EB32CD1003C380D /* SavingAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491C21EB32CD1003C380D /* SavingAccount.m */; };
 		067491C61EB32E7D003C380D /* TemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491C51EB32E7D003C380D /* TemplateMethodViewController.m */; };
+		067491CE1EB3345F003C380D /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491CD1EB3345F003C380D /* Employee.m */; };
+		067491D11EB334E5003C380D /* FulltimeEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491D01EB334E5003C380D /* FulltimeEmployee.m */; };
+		067491D41EB33507003C380D /* ParttimeEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491D31EB33507003C380D /* ParttimeEmployee.m */; };
+		067491D71EB3354E003C380D /* Department.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491D61EB3354E003C380D /* Department.m */; };
+		067491DA1EB335D5003C380D /* FADepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491D91EB335D5003C380D /* FADepartment.m */; };
+		067491E01EB336DE003C380D /* EmployeeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491DF1EB336DE003C380D /* EmployeeList.m */; };
+		067491E31EB33D3E003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491E21EB33D3E003C380D /* HRDepartment.m */; };
+		067491E61EB344FD003C380D /* VisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491E51EB344FD003C380D /* VisitorViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -526,6 +534,22 @@
 		067491C21EB32CD1003C380D /* SavingAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingAccount.m; sourceTree = "<group>"; };
 		067491C41EB32E7D003C380D /* TemplateMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMethodViewController.h; sourceTree = "<group>"; };
 		067491C51EB32E7D003C380D /* TemplateMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodViewController.m; sourceTree = "<group>"; };
+		067491CC1EB3345F003C380D /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		067491CD1EB3345F003C380D /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		067491CF1EB334E5003C380D /* FulltimeEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FulltimeEmployee.h; sourceTree = "<group>"; };
+		067491D01EB334E5003C380D /* FulltimeEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FulltimeEmployee.m; sourceTree = "<group>"; };
+		067491D21EB33507003C380D /* ParttimeEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParttimeEmployee.h; sourceTree = "<group>"; };
+		067491D31EB33507003C380D /* ParttimeEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParttimeEmployee.m; sourceTree = "<group>"; };
+		067491D51EB3354E003C380D /* Department.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Department.h; sourceTree = "<group>"; };
+		067491D61EB3354E003C380D /* Department.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Department.m; sourceTree = "<group>"; };
+		067491D81EB335D5003C380D /* FADepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FADepartment.h; sourceTree = "<group>"; };
+		067491D91EB335D5003C380D /* FADepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FADepartment.m; sourceTree = "<group>"; };
+		067491DE1EB336DE003C380D /* EmployeeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeList.h; sourceTree = "<group>"; };
+		067491DF1EB336DE003C380D /* EmployeeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeList.m; sourceTree = "<group>"; };
+		067491E11EB33D3E003C380D /* HRDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDepartment.h; sourceTree = "<group>"; };
+		067491E21EB33D3E003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
+		067491E41EB344FD003C380D /* VisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorViewController.h; sourceTree = "<group>"; };
+		067491E51EB344FD003C380D /* VisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -824,6 +848,9 @@
 		06446AC91EA6FCBA00C0C534 /* 24_Visitor */ = {
 			isa = PBXGroup;
 			children = (
+				067491C71EB332AD003C380D /* Element */,
+				067491C91EB332AD003C380D /* ObjectStructure */,
+				067491CA1EB332AD003C380D /* Visitor */,
 			);
 			path = 24_Visitor;
 			sourceTree = "<group>";
@@ -1261,6 +1288,8 @@
 		06446B381EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				067491E41EB344FD003C380D /* VisitorViewController.h */,
+				067491E51EB344FD003C380D /* VisitorViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2196,6 +2225,57 @@
 			path = ConcreteClass;
 			sourceTree = "<group>";
 		};
+		067491C71EB332AD003C380D /* Element */ = {
+			isa = PBXGroup;
+			children = (
+				067491C81EB332AD003C380D /* ConcreteElement */,
+				067491CC1EB3345F003C380D /* Employee.h */,
+				067491CD1EB3345F003C380D /* Employee.m */,
+			);
+			path = Element;
+			sourceTree = "<group>";
+		};
+		067491C81EB332AD003C380D /* ConcreteElement */ = {
+			isa = PBXGroup;
+			children = (
+				067491CF1EB334E5003C380D /* FulltimeEmployee.h */,
+				067491D01EB334E5003C380D /* FulltimeEmployee.m */,
+				067491D21EB33507003C380D /* ParttimeEmployee.h */,
+				067491D31EB33507003C380D /* ParttimeEmployee.m */,
+			);
+			path = ConcreteElement;
+			sourceTree = "<group>";
+		};
+		067491C91EB332AD003C380D /* ObjectStructure */ = {
+			isa = PBXGroup;
+			children = (
+				067491DE1EB336DE003C380D /* EmployeeList.h */,
+				067491DF1EB336DE003C380D /* EmployeeList.m */,
+			);
+			path = ObjectStructure;
+			sourceTree = "<group>";
+		};
+		067491CA1EB332AD003C380D /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				067491CB1EB332AD003C380D /* ConcreteVisitor */,
+				067491D51EB3354E003C380D /* Department.h */,
+				067491D61EB3354E003C380D /* Department.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		067491CB1EB332AD003C380D /* ConcreteVisitor */ = {
+			isa = PBXGroup;
+			children = (
+				067491E11EB33D3E003C380D /* HRDepartment.h */,
+				067491E21EB33D3E003C380D /* HRDepartment.m */,
+				067491D81EB335D5003C380D /* FADepartment.h */,
+				067491D91EB335D5003C380D /* FADepartment.m */,
+			);
+			path = ConcreteVisitor;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2450,8 +2530,10 @@
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
 				067491A01EB316F3003C380D /* DPScreen.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
+				067491CE1EB3345F003C380D /* Employee.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
 				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
+				067491DA1EB335D5003C380D /* FADepartment.m in Sources */,
 				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
 				067491301EB2D271003C380D /* ConcreteAllyControlCenter.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
@@ -2492,9 +2574,11 @@
 				06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */,
 				06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */,
 				067491B81EB31FCD003C380D /* StrategyViewController.m in Sources */,
+				067491D71EB3354E003C380D /* Department.m in Sources */,
 				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
 				06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */,
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
+				067491E31EB33D3E003C380D /* HRDepartment.m in Sources */,
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */,
@@ -2540,8 +2624,10 @@
 				06446C321EACF56000C0C534 /* DecoratorViewController.m in Sources */,
 				06446C231EACF34600C0C534 /* DPTextBox.m in Sources */,
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
+				067491D11EB334E5003C380D /* FulltimeEmployee.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				067491C01EB32C7F003C380D /* CurrentAccount.m in Sources */,
+				067491E61EB344FD003C380D /* VisitorViewController.m in Sources */,
 				067491971EB3163A003C380D /* DPScreenNormalState.m in Sources */,
 				067491BD1EB322C8003C380D /* BankAccount.m in Sources */,
 				067491B21EB31D37003C380D /* VIPDiscount.m in Sources */,
@@ -2602,6 +2688,8 @@
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
 				06446D401EB1D14800C0C534 /* DPMComponent.m in Sources */,
 				06446CE21EAF555A00C0C534 /* InstructionHandler.m in Sources */,
+				067491E01EB336DE003C380D /* EmployeeList.m in Sources */,
+				067491D41EB33507003C380D /* ParttimeEmployee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,6 +30,7 @@
 #import "StateViewController.h"
 #import "StrategyViewController.h"
 #import "TemplateMethodViewController.h"
+#import "VisitorViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -108,6 +109,9 @@
     }
     else if ([patternChineseName isEqualToString:@"模板方法模式"]) {
         designPatternVC = [[TemplateMethodViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"访问者模式"]) {
+        designPatternVC = [[VisitorViewController alloc] init];
     }
     
     if (designPatternVC) {
