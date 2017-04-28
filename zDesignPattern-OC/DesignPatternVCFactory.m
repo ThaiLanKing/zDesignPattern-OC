@@ -26,6 +26,7 @@
 #import "IteratorViewController.h"
 #import "MediatorViewController.h"
 #import "MementoViewController.h"
+#import "ObserverViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -92,6 +93,9 @@
     }
     else if ([patternChineseName isEqualToString:@"备忘录模式"]) {
         designPatternVC = [[MementoViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"观察者模式"]) {
+        designPatternVC = [[ObserverViewController alloc] init];
     }
     
     if (designPatternVC) {

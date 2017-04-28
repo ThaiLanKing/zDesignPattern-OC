@@ -144,6 +144,11 @@
 		06446D581EB1ED4800C0C534 /* ChessmanMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D571EB1ED4800C0C534 /* ChessmanMemento.m */; };
 		06446D5B1EB1F0C500C0C534 /* MementoCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D5A1EB1F0C500C0C534 /* MementoCaretaker.m */; };
 		06446D5E1EB1F15400C0C534 /* MementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D5D1EB1F15400C0C534 /* MementoViewController.m */; };
+		06446D651EB21F3A00C0C534 /* ObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D641EB21F3A00C0C534 /* ObserverViewController.m */; };
+		06446D681EB21FB500C0C534 /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446D671EB21FB500C0C534 /* Observer.m */; };
+		0674912A1EB2CEC7003C380D /* AllyControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491291EB2CEC7003C380D /* AllyControlCenter.m */; };
+		0674912D1EB2D161003C380D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674912C1EB2D161003C380D /* Player.m */; };
+		067491301EB2D271003C380D /* ConcreteAllyControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674912F1EB2D271003C380D /* ConcreteAllyControlCenter.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -436,6 +441,16 @@
 		06446D5A1EB1F0C500C0C534 /* MementoCaretaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoCaretaker.m; sourceTree = "<group>"; };
 		06446D5C1EB1F15400C0C534 /* MementoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoViewController.h; sourceTree = "<group>"; };
 		06446D5D1EB1F15400C0C534 /* MementoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoViewController.m; sourceTree = "<group>"; };
+		06446D631EB21F3A00C0C534 /* ObserverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverViewController.h; sourceTree = "<group>"; };
+		06446D641EB21F3A00C0C534 /* ObserverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverViewController.m; sourceTree = "<group>"; };
+		06446D661EB21FB500C0C534 /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		06446D671EB21FB500C0C534 /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		067491281EB2CEC7003C380D /* AllyControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllyControlCenter.h; sourceTree = "<group>"; };
+		067491291EB2CEC7003C380D /* AllyControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllyControlCenter.m; sourceTree = "<group>"; };
+		0674912B1EB2D161003C380D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0674912C1EB2D161003C380D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		0674912E1EB2D271003C380D /* ConcreteAllyControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteAllyControlCenter.h; sourceTree = "<group>"; };
+		0674912F1EB2D271003C380D /* ConcreteAllyControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteAllyControlCenter.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -698,6 +713,8 @@
 		06446AC51EA6FCBA00C0C534 /* 20_Observer */ = {
 			isa = PBXGroup;
 			children = (
+				06446D5F1EB21F2100C0C534 /* Observer */,
+				06446D611EB21F2100C0C534 /* Subject */,
 			);
 			path = 20_Observer;
 			sourceTree = "<group>";
@@ -1095,6 +1112,8 @@
 		06446B301EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				06446D631EB21F3A00C0C534 /* ObserverViewController.h */,
+				06446D641EB21F3A00C0C534 /* ObserverViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1878,6 +1897,44 @@
 			path = Originator;
 			sourceTree = "<group>";
 		};
+		06446D5F1EB21F2100C0C534 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				06446D601EB21F2100C0C534 /* ConcreteObserver */,
+				06446D661EB21FB500C0C534 /* Observer.h */,
+				06446D671EB21FB500C0C534 /* Observer.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		06446D601EB21F2100C0C534 /* ConcreteObserver */ = {
+			isa = PBXGroup;
+			children = (
+				0674912B1EB2D161003C380D /* Player.h */,
+				0674912C1EB2D161003C380D /* Player.m */,
+			);
+			path = ConcreteObserver;
+			sourceTree = "<group>";
+		};
+		06446D611EB21F2100C0C534 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				06446D621EB21F2100C0C534 /* ConcreteSubject */,
+				067491281EB2CEC7003C380D /* AllyControlCenter.h */,
+				067491291EB2CEC7003C380D /* AllyControlCenter.m */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		06446D621EB21F2100C0C534 /* ConcreteSubject */ = {
+			isa = PBXGroup;
+			children = (
+				0674912E1EB2D271003C380D /* ConcreteAllyControlCenter.h */,
+				0674912F1EB2D271003C380D /* ConcreteAllyControlCenter.m */,
+			);
+			path = ConcreteSubject;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2122,6 +2179,7 @@
 				06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */,
 				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
 				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
+				0674912D1EB2D161003C380D /* Player.m in Sources */,
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
@@ -2131,18 +2189,22 @@
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
 				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
 				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
+				067491301EB2D271003C380D /* ConcreteAllyControlCenter.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06446D431EB1D55200C0C534 /* DPMButton.m in Sources */,
+				06446D681EB21FB500C0C534 /* Observer.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
 				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
 				06446C921EAEF78000C0C534 /* FBSettingWindow.m in Sources */,
+				06446D651EB21F3A00C0C534 /* ObserverViewController.m in Sources */,
 				06446D3D1EB1D0EC00C0C534 /* ConcreteMediator.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
+				0674912A1EB2CEC7003C380D /* AllyControlCenter.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
 				06446BEC1EAC5AE100C0C534 /* LinuxImp.m in Sources */,
 				06446B741EA75CF300C0C534 /* DPComboBox.m in Sources */,
