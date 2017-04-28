@@ -164,6 +164,12 @@
 		0674919A1EB3167D003C380D /* DPScreenLargerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491991EB3167D003C380D /* DPScreenLargerState.m */; };
 		0674919D1EB316B6003C380D /* DPScreenLargestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674919C1EB316B6003C380D /* DPScreenLargestState.m */; };
 		067491A01EB316F3003C380D /* DPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674919F1EB316F3003C380D /* DPScreen.m */; };
+		067491A91EB31BA8003C380D /* Discount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491A81EB31BA8003C380D /* Discount.m */; };
+		067491AC1EB31CA5003C380D /* StudentDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491AB1EB31CA5003C380D /* StudentDiscount.m */; };
+		067491AF1EB31CFA003C380D /* ChildrenDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491AE1EB31CFA003C380D /* ChildrenDiscount.m */; };
+		067491B21EB31D37003C380D /* VIPDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B11EB31D37003C380D /* VIPDiscount.m */; };
+		067491B51EB31E50003C380D /* MovieTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B41EB31E50003C380D /* MovieTicket.m */; };
+		067491B81EB31FCD003C380D /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B71EB31FCD003C380D /* StrategyViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -496,6 +502,18 @@
 		0674919C1EB316B6003C380D /* DPScreenLargestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreenLargestState.m; sourceTree = "<group>"; };
 		0674919E1EB316F3003C380D /* DPScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreen.h; sourceTree = "<group>"; };
 		0674919F1EB316F3003C380D /* DPScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreen.m; sourceTree = "<group>"; };
+		067491A71EB31BA8003C380D /* Discount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discount.h; sourceTree = "<group>"; };
+		067491A81EB31BA8003C380D /* Discount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Discount.m; sourceTree = "<group>"; };
+		067491AA1EB31CA5003C380D /* StudentDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDiscount.h; sourceTree = "<group>"; };
+		067491AB1EB31CA5003C380D /* StudentDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDiscount.m; sourceTree = "<group>"; };
+		067491AD1EB31CFA003C380D /* ChildrenDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildrenDiscount.h; sourceTree = "<group>"; };
+		067491AE1EB31CFA003C380D /* ChildrenDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildrenDiscount.m; sourceTree = "<group>"; };
+		067491B01EB31D37003C380D /* VIPDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIPDiscount.h; sourceTree = "<group>"; };
+		067491B11EB31D37003C380D /* VIPDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIPDiscount.m; sourceTree = "<group>"; };
+		067491B31EB31E50003C380D /* MovieTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTicket.h; sourceTree = "<group>"; };
+		067491B41EB31E50003C380D /* MovieTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTicket.m; sourceTree = "<group>"; };
+		067491B61EB31FCD003C380D /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
+		067491B71EB31FCD003C380D /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -777,6 +795,8 @@
 		06446AC71EA6FCBA00C0C534 /* 22_Strategy */ = {
 			isa = PBXGroup;
 			children = (
+				067491A11EB31A7B003C380D /* Context */,
+				067491A21EB31A7B003C380D /* Strategy */,
 			);
 			path = 22_Strategy;
 			sourceTree = "<group>";
@@ -1194,6 +1214,8 @@
 		06446B341EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				067491B61EB31FCD003C380D /* StrategyViewController.h */,
+				067491B71EB31FCD003C380D /* StrategyViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2106,6 +2128,38 @@
 			path = ConcreteState;
 			sourceTree = "<group>";
 		};
+		067491A11EB31A7B003C380D /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				067491B31EB31E50003C380D /* MovieTicket.h */,
+				067491B41EB31E50003C380D /* MovieTicket.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		067491A21EB31A7B003C380D /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				067491A31EB31A7B003C380D /* ConcreteStrategy */,
+				067491A71EB31BA8003C380D /* Discount.h */,
+				067491A81EB31BA8003C380D /* Discount.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		067491A31EB31A7B003C380D /* ConcreteStrategy */ = {
+			isa = PBXGroup;
+			children = (
+				067491AA1EB31CA5003C380D /* StudentDiscount.h */,
+				067491AB1EB31CA5003C380D /* StudentDiscount.m */,
+				067491AD1EB31CFA003C380D /* ChildrenDiscount.h */,
+				067491AE1EB31CFA003C380D /* ChildrenDiscount.m */,
+				067491B01EB31D37003C380D /* VIPDiscount.h */,
+				067491B11EB31D37003C380D /* VIPDiscount.m */,
+			);
+			path = ConcreteStrategy;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2352,6 +2406,7 @@
 				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
 				0674912D1EB2D161003C380D /* Player.m in Sources */,
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
+				067491B51EB31E50003C380D /* MovieTicket.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
 				067491831EB2EC52003C380D /* NormalState.m in Sources */,
@@ -2374,6 +2429,7 @@
 				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
 				06446C921EAEF78000C0C534 /* FBSettingWindow.m in Sources */,
 				06446D651EB21F3A00C0C534 /* ObserverViewController.m in Sources */,
+				067491AF1EB31CFA003C380D /* ChildrenDiscount.m in Sources */,
 				06446D3D1EB1D0EC00C0C534 /* ConcreteMediator.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
@@ -2399,6 +2455,7 @@
 				06446D581EB1ED4800C0C534 /* ChessmanMemento.m in Sources */,
 				06446CEE1EB0332000C0C534 /* CommandNode.m in Sources */,
 				06446C821EAEE7C900C0C534 /* VicePresident.m in Sources */,
+				067491B81EB31FCD003C380D /* StrategyViewController.m in Sources */,
 				06446C131EACB91E00C0C534 /* DPFolder.m in Sources */,
 				06446C0A1EACB6FE00C0C534 /* DPImageFile.m in Sources */,
 				06446BBB1EAB113700C0C534 /* Actor.m in Sources */,
@@ -2436,6 +2493,7 @@
 				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
 				06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */,
+				067491AC1EB31CA5003C380D /* StudentDiscount.m in Sources */,
 				06446BE31EAC554700C0C534 /* DPImage.m in Sources */,
 				067491841EB2EC52003C380D /* OverdraftState.m in Sources */,
 				06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */,
@@ -2448,7 +2506,9 @@
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				067491971EB3163A003C380D /* DPScreenNormalState.m in Sources */,
+				067491B21EB31D37003C380D /* VIPDiscount.m in Sources */,
 				06446D461EB1D57F00C0C534 /* DPMList.m in Sources */,
+				067491A91EB31BA8003C380D /* Discount.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,

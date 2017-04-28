@@ -28,6 +28,7 @@
 #import "MementoViewController.h"
 #import "ObserverViewController.h"
 #import "StateViewController.h"
+#import "StrategyViewController.h"
 
 @implementation DesignPatternVCFactory
 
@@ -100,6 +101,9 @@
     }
     else if ([patternChineseName isEqualToString:@"状态模式"]) {
         designPatternVC = [[StateViewController alloc] init];
+    }
+    else if ([patternChineseName isEqualToString:@"策略模式"]) {
+        designPatternVC = [[StrategyViewController alloc] init];
     }
     
     if (designPatternVC) {
