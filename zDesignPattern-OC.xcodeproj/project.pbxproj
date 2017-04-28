@@ -149,6 +149,21 @@
 		0674912A1EB2CEC7003C380D /* AllyControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491291EB2CEC7003C380D /* AllyControlCenter.m */; };
 		0674912D1EB2D161003C380D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674912C1EB2D161003C380D /* Player.m */; };
 		067491301EB2D271003C380D /* ConcreteAllyControlCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674912F1EB2D271003C380D /* ConcreteAllyControlCenter.m */; };
+		067491451EB2E632003C380D /* StateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491441EB2E632003C380D /* StateViewController.m */; };
+		067491811EB2EC52003C380D /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674916E1EB2EC52003C380D /* Account.m */; };
+		067491821EB2EC52003C380D /* AccountState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491711EB2EC52003C380D /* AccountState.m */; };
+		067491831EB2EC52003C380D /* NormalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491741EB2EC52003C380D /* NormalState.m */; };
+		067491841EB2EC52003C380D /* OverdraftState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491761EB2EC52003C380D /* OverdraftState.m */; };
+		067491851EB2EC52003C380D /* RestrictedState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491781EB2EC52003C380D /* RestrictedState.m */; };
+		067491881EB2ECA1003C380D /* DPState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491871EB2ECA1003C380D /* DPState.m */; };
+		0674918B1EB2ED06003C380D /* DPOnState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674918A1EB2ED06003C380D /* DPOnState.m */; };
+		0674918E1EB2ED7C003C380D /* DPOffState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674918D1EB2ED7C003C380D /* DPOffState.m */; };
+		067491911EB2EE40003C380D /* DPSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491901EB2EE40003C380D /* DPSwitch.m */; };
+		067491941EB315A8003C380D /* DPScreenState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491931EB315A8003C380D /* DPScreenState.m */; };
+		067491971EB3163A003C380D /* DPScreenNormalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491961EB3163A003C380D /* DPScreenNormalState.m */; };
+		0674919A1EB3167D003C380D /* DPScreenLargerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491991EB3167D003C380D /* DPScreenLargerState.m */; };
+		0674919D1EB316B6003C380D /* DPScreenLargestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674919C1EB316B6003C380D /* DPScreenLargestState.m */; };
+		067491A01EB316F3003C380D /* DPScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0674919F1EB316F3003C380D /* DPScreen.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -451,6 +466,36 @@
 		0674912C1EB2D161003C380D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		0674912E1EB2D271003C380D /* ConcreteAllyControlCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteAllyControlCenter.h; sourceTree = "<group>"; };
 		0674912F1EB2D271003C380D /* ConcreteAllyControlCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteAllyControlCenter.m; sourceTree = "<group>"; };
+		067491431EB2E632003C380D /* StateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateViewController.h; sourceTree = "<group>"; };
+		067491441EB2E632003C380D /* StateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateViewController.m; sourceTree = "<group>"; };
+		0674916D1EB2EC52003C380D /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		0674916E1EB2EC52003C380D /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		067491701EB2EC52003C380D /* AccountState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountState.h; sourceTree = "<group>"; };
+		067491711EB2EC52003C380D /* AccountState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountState.m; sourceTree = "<group>"; };
+		067491731EB2EC52003C380D /* NormalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalState.h; sourceTree = "<group>"; };
+		067491741EB2EC52003C380D /* NormalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalState.m; sourceTree = "<group>"; };
+		067491751EB2EC52003C380D /* OverdraftState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverdraftState.h; sourceTree = "<group>"; };
+		067491761EB2EC52003C380D /* OverdraftState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverdraftState.m; sourceTree = "<group>"; };
+		067491771EB2EC52003C380D /* RestrictedState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestrictedState.h; sourceTree = "<group>"; };
+		067491781EB2EC52003C380D /* RestrictedState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestrictedState.m; sourceTree = "<group>"; };
+		067491861EB2ECA1003C380D /* DPState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPState.h; sourceTree = "<group>"; };
+		067491871EB2ECA1003C380D /* DPState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPState.m; sourceTree = "<group>"; };
+		067491891EB2ED06003C380D /* DPOnState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOnState.h; sourceTree = "<group>"; };
+		0674918A1EB2ED06003C380D /* DPOnState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOnState.m; sourceTree = "<group>"; };
+		0674918C1EB2ED7C003C380D /* DPOffState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPOffState.h; sourceTree = "<group>"; };
+		0674918D1EB2ED7C003C380D /* DPOffState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPOffState.m; sourceTree = "<group>"; };
+		0674918F1EB2EE40003C380D /* DPSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPSwitch.h; sourceTree = "<group>"; };
+		067491901EB2EE40003C380D /* DPSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPSwitch.m; sourceTree = "<group>"; };
+		067491921EB315A8003C380D /* DPScreenState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreenState.h; sourceTree = "<group>"; };
+		067491931EB315A8003C380D /* DPScreenState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreenState.m; sourceTree = "<group>"; };
+		067491951EB3163A003C380D /* DPScreenNormalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreenNormalState.h; sourceTree = "<group>"; };
+		067491961EB3163A003C380D /* DPScreenNormalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreenNormalState.m; sourceTree = "<group>"; };
+		067491981EB3167D003C380D /* DPScreenLargerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreenLargerState.h; sourceTree = "<group>"; };
+		067491991EB3167D003C380D /* DPScreenLargerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreenLargerState.m; sourceTree = "<group>"; };
+		0674919B1EB316B6003C380D /* DPScreenLargestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreenLargestState.h; sourceTree = "<group>"; };
+		0674919C1EB316B6003C380D /* DPScreenLargestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreenLargestState.m; sourceTree = "<group>"; };
+		0674919E1EB316F3003C380D /* DPScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScreen.h; sourceTree = "<group>"; };
+		0674919F1EB316F3003C380D /* DPScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScreen.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -722,6 +767,9 @@
 		06446AC61EA6FCBA00C0C534 /* 21_State */ = {
 			isa = PBXGroup;
 			children = (
+				0674916B1EB2EC52003C380D /* Sample1 */,
+				067491791EB2EC52003C380D /* Sample2 */,
+				0674917D1EB2EC52003C380D /* Sample3 */,
 			);
 			path = 21_State;
 			sourceTree = "<group>";
@@ -1129,6 +1177,8 @@
 		06446B321EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				067491431EB2E632003C380D /* StateViewController.h */,
+				067491441EB2E632003C380D /* StateViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -1935,6 +1985,127 @@
 			path = ConcreteSubject;
 			sourceTree = "<group>";
 		};
+		0674916B1EB2EC52003C380D /* Sample1 */ = {
+			isa = PBXGroup;
+			children = (
+				0674916C1EB2EC52003C380D /* Context */,
+				0674916F1EB2EC52003C380D /* State */,
+			);
+			path = Sample1;
+			sourceTree = "<group>";
+		};
+		0674916C1EB2EC52003C380D /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				0674916D1EB2EC52003C380D /* Account.h */,
+				0674916E1EB2EC52003C380D /* Account.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		0674916F1EB2EC52003C380D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				067491701EB2EC52003C380D /* AccountState.h */,
+				067491711EB2EC52003C380D /* AccountState.m */,
+				067491721EB2EC52003C380D /* ConcreteState */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		067491721EB2EC52003C380D /* ConcreteState */ = {
+			isa = PBXGroup;
+			children = (
+				067491731EB2EC52003C380D /* NormalState.h */,
+				067491741EB2EC52003C380D /* NormalState.m */,
+				067491751EB2EC52003C380D /* OverdraftState.h */,
+				067491761EB2EC52003C380D /* OverdraftState.m */,
+				067491771EB2EC52003C380D /* RestrictedState.h */,
+				067491781EB2EC52003C380D /* RestrictedState.m */,
+			);
+			path = ConcreteState;
+			sourceTree = "<group>";
+		};
+		067491791EB2EC52003C380D /* Sample2 */ = {
+			isa = PBXGroup;
+			children = (
+				0674917A1EB2EC52003C380D /* Context */,
+				0674917B1EB2EC52003C380D /* State */,
+			);
+			path = Sample2;
+			sourceTree = "<group>";
+		};
+		0674917A1EB2EC52003C380D /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				0674918F1EB2EE40003C380D /* DPSwitch.h */,
+				067491901EB2EE40003C380D /* DPSwitch.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		0674917B1EB2EC52003C380D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				0674917C1EB2EC52003C380D /* ConcreteState */,
+				067491861EB2ECA1003C380D /* DPState.h */,
+				067491871EB2ECA1003C380D /* DPState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		0674917C1EB2EC52003C380D /* ConcreteState */ = {
+			isa = PBXGroup;
+			children = (
+				067491891EB2ED06003C380D /* DPOnState.h */,
+				0674918A1EB2ED06003C380D /* DPOnState.m */,
+				0674918C1EB2ED7C003C380D /* DPOffState.h */,
+				0674918D1EB2ED7C003C380D /* DPOffState.m */,
+			);
+			path = ConcreteState;
+			sourceTree = "<group>";
+		};
+		0674917D1EB2EC52003C380D /* Sample3 */ = {
+			isa = PBXGroup;
+			children = (
+				0674917E1EB2EC52003C380D /* Context */,
+				0674917F1EB2EC52003C380D /* State */,
+			);
+			path = Sample3;
+			sourceTree = "<group>";
+		};
+		0674917E1EB2EC52003C380D /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				0674919E1EB316F3003C380D /* DPScreen.h */,
+				0674919F1EB316F3003C380D /* DPScreen.m */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		0674917F1EB2EC52003C380D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				067491801EB2EC52003C380D /* ConcreteState */,
+				067491921EB315A8003C380D /* DPScreenState.h */,
+				067491931EB315A8003C380D /* DPScreenState.m */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		067491801EB2EC52003C380D /* ConcreteState */ = {
+			isa = PBXGroup;
+			children = (
+				067491951EB3163A003C380D /* DPScreenNormalState.h */,
+				067491961EB3163A003C380D /* DPScreenNormalState.m */,
+				067491981EB3167D003C380D /* DPScreenLargerState.h */,
+				067491991EB3167D003C380D /* DPScreenLargerState.m */,
+				0674919B1EB316B6003C380D /* DPScreenLargestState.h */,
+				0674919C1EB316B6003C380D /* DPScreenLargestState.m */,
+			);
+			path = ConcreteState;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2183,8 +2354,10 @@
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
 				06446C5C1EADAEA600C0C534 /* FlyweightViewController.m in Sources */,
 				06446C101EACB8C700C0C534 /* DPVideoFile.m in Sources */,
+				067491831EB2EC52003C380D /* NormalState.m in Sources */,
 				06446C651EADDE7D00C0C534 /* ProxyViewController.m in Sources */,
 				06446BF81EAC5BA900C0C534 /* DPBMPImage.m in Sources */,
+				067491A01EB316F3003C380D /* DPScreen.m in Sources */,
 				06446BFE1EAC5F4C00C0C534 /* DPGIFImage.m in Sources */,
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
 				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
@@ -2195,6 +2368,7 @@
 				06446D681EB21FB500C0C534 /* Observer.m in Sources */,
 				06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */,
 				06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */,
+				067491941EB315A8003C380D /* DPScreenState.m in Sources */,
 				06446B5A1EA74F3200C0C534 /* FileLoggerFactory.m in Sources */,
 				06446C371EAD8A6F00C0C534 /* DPFileReader.m in Sources */,
 				06446C881EAEE86800C0C534 /* Congress.m in Sources */,
@@ -2203,6 +2377,7 @@
 				06446D3D1EB1D0EC00C0C534 /* ConcreteMediator.m in Sources */,
 				06446C6E1EADE0AC00C0C534 /* DPLogger.m in Sources */,
 				06446B571EA74ED000C0C534 /* DataBaseLoggerFactory.m in Sources */,
+				0674918E1EB2ED7C003C380D /* DPOffState.m in Sources */,
 				06446C291EACF3B900C0C534 /* ComponentDecorator.m in Sources */,
 				0674912A1EB2CEC7003C380D /* AllyControlCenter.m in Sources */,
 				06446B861EA75E6F00C0C534 /* SummerComboBox.m in Sources */,
@@ -2230,6 +2405,7 @@
 				06446B5D1EA7511F00C0C534 /* FactoryMethodViewController.m in Sources */,
 				06446BF51EAC5B9300C0C534 /* DPPNGImage.m in Sources */,
 				06446CC31EAF470100C0C534 /* InterpreterViewController.m in Sources */,
+				0674918B1EB2ED06003C380D /* DPOnState.m in Sources */,
 				06446B771EA75D2600C0C534 /* SpringButton.m in Sources */,
 				06446D271EB1A2B500C0C534 /* AbstractObjectList.m in Sources */,
 				06446CEB1EB030AD00C0C534 /* ExpressionNode.m in Sources */,
@@ -2246,6 +2422,7 @@
 				06446C2F1EACF4D900C0C534 /* BlackBorderDecorator.m in Sources */,
 				06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */,
 				06446D551EB1E3E700C0C534 /* DPChessman.m in Sources */,
+				067491821EB2EC52003C380D /* AccountState.m in Sources */,
 				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446D5E1EB1F15400C0C534 /* MementoViewController.m in Sources */,
@@ -2260,20 +2437,24 @@
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
 				06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */,
 				06446BE31EAC554700C0C534 /* DPImage.m in Sources */,
+				067491841EB2EC52003C380D /* OverdraftState.m in Sources */,
 				06446BFB1EAC5BDF00C0C534 /* DPMatrix.m in Sources */,
 				06446C9E1EAEF8B200C0C534 /* HelpHandler.m in Sources */,
 				06446B801EA75DBD00C0C534 /* SummerTextField.m in Sources */,
+				067491881EB2ECA1003C380D /* DPState.m in Sources */,
 				06446BE91EAC5A8800C0C534 /* WindowsImp.m in Sources */,
 				06446C321EACF56000C0C534 /* DecoratorViewController.m in Sources */,
 				06446C231EACF34600C0C534 /* DPTextBox.m in Sources */,
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
+				067491971EB3163A003C380D /* DPScreenNormalState.m in Sources */,
 				06446D461EB1D57F00C0C534 /* DPMList.m in Sources */,
 				06446AD51EA713E100C0C534 /* PieChart.m in Sources */,
 				062E2C881EA45D4F0040DD85 /* DesignPatternModel.m in Sources */,
 				06446C011EAC5FC700C0C534 /* BridgeViewController.m in Sources */,
 				06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */,
 				06446D301EB1A5CF00C0C534 /* ProductIterator.m in Sources */,
+				0674919D1EB316B6003C380D /* DPScreenLargestState.m in Sources */,
 				06446C261EACF37300C0C534 /* DPListBox.m in Sources */,
 				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
@@ -2289,6 +2470,7 @@
 				06446D5B1EB1F0C500C0C534 /* MementoCaretaker.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
 				06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */,
+				067491451EB2E632003C380D /* StateViewController.m in Sources */,
 				06446B3B1EA7332500C0C534 /* zDesignPatternBaseViewController.m in Sources */,
 				06446CE11EAF555A00C0C534 /* DistanceNode.m in Sources */,
 				06446AD81EA714B300C0C534 /* ChartFactory.m in Sources */,
@@ -2307,10 +2489,14 @@
 				06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */,
 				06A7EAF81E9B126F0054D69D /* HomeViewController.m in Sources */,
 				06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */,
+				067491851EB2EC52003C380D /* RestrictedState.m in Sources */,
 				06446CA11EAEFAC200C0C534 /* HelpCommand.m in Sources */,
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
 				06446CDF1EAF555A00C0C534 /* ActionNode.m in Sources */,
+				067491811EB2EC52003C380D /* Account.m in Sources */,
+				067491911EB2EE40003C380D /* DPSwitch.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
+				0674919A1EB3167D003C380D /* DPScreenLargerState.m in Sources */,
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
