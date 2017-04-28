@@ -170,6 +170,10 @@
 		067491B21EB31D37003C380D /* VIPDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B11EB31D37003C380D /* VIPDiscount.m */; };
 		067491B51EB31E50003C380D /* MovieTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B41EB31E50003C380D /* MovieTicket.m */; };
 		067491B81EB31FCD003C380D /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491B71EB31FCD003C380D /* StrategyViewController.m */; };
+		067491BD1EB322C8003C380D /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491BC1EB322C8003C380D /* BankAccount.m */; };
+		067491C01EB32C7F003C380D /* CurrentAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491BF1EB32C7F003C380D /* CurrentAccount.m */; };
+		067491C31EB32CD1003C380D /* SavingAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491C21EB32CD1003C380D /* SavingAccount.m */; };
+		067491C61EB32E7D003C380D /* TemplateMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491C51EB32E7D003C380D /* TemplateMethodViewController.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -514,6 +518,14 @@
 		067491B41EB31E50003C380D /* MovieTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTicket.m; sourceTree = "<group>"; };
 		067491B61EB31FCD003C380D /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrategyViewController.h; sourceTree = "<group>"; };
 		067491B71EB31FCD003C380D /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrategyViewController.m; sourceTree = "<group>"; };
+		067491BB1EB322C8003C380D /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		067491BC1EB322C8003C380D /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		067491BE1EB32C7F003C380D /* CurrentAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentAccount.h; sourceTree = "<group>"; };
+		067491BF1EB32C7F003C380D /* CurrentAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentAccount.m; sourceTree = "<group>"; };
+		067491C11EB32CD1003C380D /* SavingAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingAccount.h; sourceTree = "<group>"; };
+		067491C21EB32CD1003C380D /* SavingAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingAccount.m; sourceTree = "<group>"; };
+		067491C41EB32E7D003C380D /* TemplateMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMethodViewController.h; sourceTree = "<group>"; };
+		067491C51EB32E7D003C380D /* TemplateMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodViewController.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -804,6 +816,7 @@
 		06446AC81EA6FCBA00C0C534 /* 23_TemplateMethod */ = {
 			isa = PBXGroup;
 			children = (
+				067491B91EB32264003C380D /* AbstractClass */,
 			);
 			path = 23_TemplateMethod;
 			sourceTree = "<group>";
@@ -1231,6 +1244,8 @@
 		06446B361EA732F900C0C534 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				067491C41EB32E7D003C380D /* TemplateMethodViewController.h */,
+				067491C51EB32E7D003C380D /* TemplateMethodViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2160,6 +2175,27 @@
 			path = ConcreteStrategy;
 			sourceTree = "<group>";
 		};
+		067491B91EB32264003C380D /* AbstractClass */ = {
+			isa = PBXGroup;
+			children = (
+				067491BA1EB32264003C380D /* ConcreteClass */,
+				067491BB1EB322C8003C380D /* BankAccount.h */,
+				067491BC1EB322C8003C380D /* BankAccount.m */,
+			);
+			path = AbstractClass;
+			sourceTree = "<group>";
+		};
+		067491BA1EB32264003C380D /* ConcreteClass */ = {
+			isa = PBXGroup;
+			children = (
+				067491BE1EB32C7F003C380D /* CurrentAccount.h */,
+				067491BF1EB32C7F003C380D /* CurrentAccount.m */,
+				067491C11EB32CD1003C380D /* SavingAccount.h */,
+				067491C21EB32CD1003C380D /* SavingAccount.m */,
+			);
+			path = ConcreteClass;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2505,7 +2541,9 @@
 				06446C231EACF34600C0C534 /* DPTextBox.m in Sources */,
 				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
+				067491C01EB32C7F003C380D /* CurrentAccount.m in Sources */,
 				067491971EB3163A003C380D /* DPScreenNormalState.m in Sources */,
+				067491BD1EB322C8003C380D /* BankAccount.m in Sources */,
 				067491B21EB31D37003C380D /* VIPDiscount.m in Sources */,
 				06446D461EB1D57F00C0C534 /* DPMList.m in Sources */,
 				067491A91EB31BA8003C380D /* Discount.m in Sources */,
@@ -2515,6 +2553,7 @@
 				06446C071EACB66F00C0C534 /* AbstractFile.m in Sources */,
 				06446D301EB1A5CF00C0C534 /* ProductIterator.m in Sources */,
 				0674919D1EB316B6003C380D /* DPScreenLargestState.m in Sources */,
+				067491C31EB32CD1003C380D /* SavingAccount.m in Sources */,
 				06446C261EACF37300C0C534 /* DPListBox.m in Sources */,
 				06446C711EADE17E00C0C534 /* DPRealSearcher.m in Sources */,
 				06446BB81EAB111E00C0C534 /* ActorController.m in Sources */,
@@ -2544,6 +2583,7 @@
 				06446C531EADA12100C0C534 /* BlackIgoChessman.m in Sources */,
 				06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */,
 				062E2CA91EA5ED200040DD85 /* DesignPatternHeaderCollectionReusableView.m in Sources */,
+				067491C61EB32E7D003C380D /* TemplateMethodViewController.m in Sources */,
 				06446D2A1EB1A38100C0C534 /* ProductList.m in Sources */,
 				06446CDE1EAF555A00C0C534 /* SentenceNode.m in Sources */,
 				06446CF41EB0395500C0C534 /* PrimitiveCommandNode.m in Sources */,
