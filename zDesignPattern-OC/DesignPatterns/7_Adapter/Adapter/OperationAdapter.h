@@ -10,7 +10,4 @@
 
 @interface OperationAdapter : ScoreOperation
 
-- (NSArray *)sort:(NSMutableArray<NSNumber *> *)scores;
-- (NSInteger)search:(NSArray<NSNumber *> *)scores value:(NSInteger)value;
-
 @end
