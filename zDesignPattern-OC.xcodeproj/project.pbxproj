@@ -41,7 +41,6 @@
 		06446B921EA7649E00C0C534 /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B911EA7649E00C0C534 /* AbstractFactoryViewController.m */; };
 		06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B951EA7699900C0C534 /* LoadBalancer.m */; };
 		06446B991EA76BCD00C0C534 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B981EA76BCD00C0C534 /* SingletonViewController.m */; };
-		06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */; };
 		06446BA21EA97F9000C0C534 /* PrototypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BA11EA97F9000C0C534 /* PrototypeViewController.m */; };
 		06446BB81EAB111E00C0C534 /* ActorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BB71EAB111E00C0C534 /* ActorController.m */; };
 		06446BBB1EAB113700C0C534 /* Actor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BBA1EAB113700C0C534 /* Actor.m */; };
@@ -50,10 +49,6 @@
 		06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC31EAB122200C0C534 /* AngelBuilder.m */; };
 		06446BC71EAB123600C0C534 /* DevilBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC61EAB123600C0C534 /* DevilBuilder.m */; };
 		06446BCA1EAB19C200C0C534 /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BC91EAB19C200C0C534 /* BuilderViewController.m */; };
-		06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */; };
-		06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD21EAB55C900C0C534 /* QuickSort.m */; };
-		06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD51EAB5C8000C0C534 /* BinarySearch.m */; };
-		06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BD81EAB659700C0C534 /* OperationAdapter.m */; };
 		06446BDC1EAB68AF00C0C534 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */; };
 		06446BE31EAC554700C0C534 /* DPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BE21EAC554700C0C534 /* DPImage.m */; };
 		06446BE61EAC55CD00C0C534 /* DPImageImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 06446BE51EAC55CD00C0C534 /* DPImageImp.m */; };
@@ -182,6 +177,11 @@
 		067491E01EB336DE003C380D /* EmployeeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491DF1EB336DE003C380D /* EmployeeList.m */; };
 		067491E31EB33D3E003C380D /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491E21EB33D3E003C380D /* HRDepartment.m */; };
 		067491E61EB344FD003C380D /* VisitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 067491E51EB344FD003C380D /* VisitorViewController.m */; };
+		067494C21EBB0638003C380D /* WeeklyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 067494C11EBB0638003C380D /* WeeklyLog.m */; };
+		067494CE1EBB0675003C380D /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 067494C51EBB0675003C380D /* BinarySearch.m */; };
+		067494CF1EBB0675003C380D /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 067494C71EBB0675003C380D /* QuickSort.m */; };
+		067494D01EBB0675003C380D /* OperationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 067494CA1EBB0675003C380D /* OperationAdapter.m */; };
+		067494D11EBB0675003C380D /* ScoreOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 067494CD1EBB0675003C380D /* ScoreOperation.m */; };
 		06A7EAD41E9A3B5D0054D69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD31E9A3B5D0054D69D /* main.m */; };
 		06A7EAD71E9A3B5D0054D69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A7EAD61E9A3B5D0054D69D /* AppDelegate.m */; };
 		06A7EADF1E9A3B5D0054D69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A7EADE1E9A3B5D0054D69D /* Assets.xcassets */; };
@@ -269,8 +269,6 @@
 		06446B951EA7699900C0C534 /* LoadBalancer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadBalancer.m; sourceTree = "<group>"; };
 		06446B971EA76BCD00C0C534 /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
 		06446B981EA76BCD00C0C534 /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
-		06446B9D1EA97C8C00C0C534 /* WeeklyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyLog.h; sourceTree = "<group>"; };
-		06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyLog.m; sourceTree = "<group>"; };
 		06446BA01EA97F9000C0C534 /* PrototypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypeViewController.h; sourceTree = "<group>"; };
 		06446BA11EA97F9000C0C534 /* PrototypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewController.m; sourceTree = "<group>"; };
 		06446BB61EAB111E00C0C534 /* ActorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActorController.h; sourceTree = "<group>"; };
@@ -287,14 +285,6 @@
 		06446BC61EAB123600C0C534 /* DevilBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevilBuilder.m; sourceTree = "<group>"; };
 		06446BC81EAB19C200C0C534 /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		06446BC91EAB19C200C0C534 /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
-		06446BCE1EAB54AB00C0C534 /* ScoreOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreOperation.h; sourceTree = "<group>"; };
-		06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreOperation.m; sourceTree = "<group>"; };
-		06446BD11EAB55C900C0C534 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
-		06446BD21EAB55C900C0C534 /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
-		06446BD41EAB5C8000C0C534 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
-		06446BD51EAB5C8000C0C534 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
-		06446BD71EAB659700C0C534 /* OperationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdapter.h; sourceTree = "<group>"; };
-		06446BD81EAB659700C0C534 /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
 		06446BDA1EAB68AF00C0C534 /* AdapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
 		06446BDB1EAB68AF00C0C534 /* AdapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
 		06446BE11EAC554700C0C534 /* DPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPImage.h; sourceTree = "<group>"; };
@@ -550,6 +540,16 @@
 		067491E21EB33D3E003C380D /* HRDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		067491E41EB344FD003C380D /* VisitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorViewController.h; sourceTree = "<group>"; };
 		067491E51EB344FD003C380D /* VisitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorViewController.m; sourceTree = "<group>"; };
+		067494C01EBB0638003C380D /* WeeklyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeeklyLog.h; sourceTree = "<group>"; };
+		067494C11EBB0638003C380D /* WeeklyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeeklyLog.m; sourceTree = "<group>"; };
+		067494C41EBB0675003C380D /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		067494C51EBB0675003C380D /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		067494C61EBB0675003C380D /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		067494C71EBB0675003C380D /* QuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		067494C91EBB0675003C380D /* OperationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdapter.h; sourceTree = "<group>"; };
+		067494CA1EBB0675003C380D /* OperationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdapter.m; sourceTree = "<group>"; };
+		067494CC1EBB0675003C380D /* ScoreOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreOperation.h; sourceTree = "<group>"; };
+		067494CD1EBB0675003C380D /* ScoreOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreOperation.m; sourceTree = "<group>"; };
 		06A7EACF1E9A3B5D0054D69D /* zDesignPattern-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zDesignPattern-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A7EAD31E9A3B5D0054D69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06A7EAD51E9A3B5D0054D69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -661,9 +661,8 @@
 		06446AB61EA6FCBA00C0C534 /* 5_Prototype */ = {
 			isa = PBXGroup;
 			children = (
-				06446B9C1EA97C6100C0C534 /* Client */,
-				06446B9A1EA97C3E00C0C534 /* ConcretePrototype */,
-				06446B9B1EA97C3E00C0C534 /* Prototype */,
+				067494BD1EBB0638003C380D /* Client */,
+				067494BE1EBB0638003C380D /* Prototype */,
 			);
 			path = 5_Prototype;
 			sourceTree = "<group>";
@@ -681,9 +680,9 @@
 		06446AB81EA6FCBA00C0C534 /* 7_Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				06446BCB1EAB511600C0C534 /* Adaptee */,
-				06446BCC1EAB511600C0C534 /* Adapter */,
-				06446BCD1EAB511600C0C534 /* Target */,
+				067494C31EBB0675003C380D /* Adaptee */,
+				067494C81EBB0675003C380D /* Adapter */,
+				067494CB1EBB0675003C380D /* Target */,
 			);
 			path = 7_Adapter;
 			sourceTree = "<group>";
@@ -1429,29 +1428,6 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
-		06446B9A1EA97C3E00C0C534 /* ConcretePrototype */ = {
-			isa = PBXGroup;
-			children = (
-				06446B9D1EA97C8C00C0C534 /* WeeklyLog.h */,
-				06446B9E1EA97C8C00C0C534 /* WeeklyLog.m */,
-			);
-			path = ConcretePrototype;
-			sourceTree = "<group>";
-		};
-		06446B9B1EA97C3E00C0C534 /* Prototype */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Prototype;
-			sourceTree = "<group>";
-		};
-		06446B9C1EA97C6100C0C534 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
 		06446BAF1EAB103F00C0C534 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
@@ -1491,35 +1467,6 @@
 				06446BBA1EAB113700C0C534 /* Actor.m */,
 			);
 			path = Product;
-			sourceTree = "<group>";
-		};
-		06446BCB1EAB511600C0C534 /* Adaptee */ = {
-			isa = PBXGroup;
-			children = (
-				06446BD71EAB659700C0C534 /* OperationAdapter.h */,
-				06446BD81EAB659700C0C534 /* OperationAdapter.m */,
-			);
-			path = Adaptee;
-			sourceTree = "<group>";
-		};
-		06446BCC1EAB511600C0C534 /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-				06446BD11EAB55C900C0C534 /* QuickSort.h */,
-				06446BD21EAB55C900C0C534 /* QuickSort.m */,
-				06446BD41EAB5C8000C0C534 /* BinarySearch.h */,
-				06446BD51EAB5C8000C0C534 /* BinarySearch.m */,
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		06446BCD1EAB511600C0C534 /* Target */ = {
-			isa = PBXGroup;
-			children = (
-				06446BCE1EAB54AB00C0C534 /* ScoreOperation.h */,
-				06446BCF1EAB54AB00C0C534 /* ScoreOperation.m */,
-			);
-			path = Target;
 			sourceTree = "<group>";
 		};
 		06446BDD1EAC54FB00C0C534 /* Abstraction */ = {
@@ -2276,6 +2223,59 @@
 			path = ConcreteVisitor;
 			sourceTree = "<group>";
 		};
+		067494BD1EBB0638003C380D /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		067494BE1EBB0638003C380D /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				067494BF1EBB0638003C380D /* ConcretePrototype */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		067494BF1EBB0638003C380D /* ConcretePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				067494C01EBB0638003C380D /* WeeklyLog.h */,
+				067494C11EBB0638003C380D /* WeeklyLog.m */,
+			);
+			path = ConcretePrototype;
+			sourceTree = "<group>";
+		};
+		067494C31EBB0675003C380D /* Adaptee */ = {
+			isa = PBXGroup;
+			children = (
+				067494C41EBB0675003C380D /* BinarySearch.h */,
+				067494C51EBB0675003C380D /* BinarySearch.m */,
+				067494C61EBB0675003C380D /* QuickSort.h */,
+				067494C71EBB0675003C380D /* QuickSort.m */,
+			);
+			path = Adaptee;
+			sourceTree = "<group>";
+		};
+		067494C81EBB0675003C380D /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				067494C91EBB0675003C380D /* OperationAdapter.h */,
+				067494CA1EBB0675003C380D /* OperationAdapter.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		067494CB1EBB0675003C380D /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				067494CC1EBB0675003C380D /* ScoreOperation.h */,
+				067494CD1EBB0675003C380D /* ScoreOperation.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
 		06A7EAC61E9A3B5D0054D69D = {
 			isa = PBXGroup;
 			children = (
@@ -2518,7 +2518,6 @@
 				06446B4B1EA74BE600C0C534 /* DatabaseLogger.m in Sources */,
 				06446D491EB1D5F400C0C534 /* DPMComboBox.m in Sources */,
 				06446D331EB1C72200C0C534 /* IteratorViewController.m in Sources */,
-				06446BD01EAB54AB00C0C534 /* ScoreOperation.m in Sources */,
 				06446C5F1EADDA9A00C0C534 /* DPCoordinates.m in Sources */,
 				0674912D1EB2D161003C380D /* Player.m in Sources */,
 				06446C441EAD994E00C0C534 /* EncryptFacade.m in Sources */,
@@ -2534,7 +2533,7 @@
 				06446BC11EAB11F400C0C534 /* HeroBuilder.m in Sources */,
 				06446D2D1EB1A4E200C0C534 /* AbstractIterator.m in Sources */,
 				067491DA1EB335D5003C380D /* FADepartment.m in Sources */,
-				06446BD61EAB5C8000C0C534 /* BinarySearch.m in Sources */,
+				067494CF1EBB0675003C380D /* QuickSort.m in Sources */,
 				067491301EB2D271003C380D /* ConcreteAllyControlCenter.m in Sources */,
 				06446B831EA75E5700C0C534 /* SpringComboBox.m in Sources */,
 				06446D431EB1D55200C0C534 /* DPMButton.m in Sources */,
@@ -2600,7 +2599,6 @@
 				06446D4F1EB1D85300C0C534 /* MediatorViewController.m in Sources */,
 				06446D551EB1E3E700C0C534 /* DPChessman.m in Sources */,
 				067491821EB2EC52003C380D /* AccountState.m in Sources */,
-				06446BD91EAB659700C0C534 /* OperationAdapter.m in Sources */,
 				06446B7D1EA75DAB00C0C534 /* SpringTextField.m in Sources */,
 				06446D5E1EB1F15400C0C534 /* MementoViewController.m in Sources */,
 				06446C2C1EACF45B00C0C534 /* ScrollBarDecorator.m in Sources */,
@@ -2610,7 +2608,6 @@
 				06446C8B1EAEF0AA00C0C534 /* ChainOfResponsibilityViewController.m in Sources */,
 				06446C161EACBB6000C0C534 /* CompositeViewController.m in Sources */,
 				06446C201EACF31400C0C534 /* DPWindow.m in Sources */,
-				06446B9F1EA97C8C00C0C534 /* WeeklyLog.m in Sources */,
 				06446BC41EAB122200C0C534 /* AngelBuilder.m in Sources */,
 				06446CA41EAEFB5300C0C534 /* MinimizeCommand.m in Sources */,
 				067491AC1EB31CA5003C380D /* StudentDiscount.m in Sources */,
@@ -2623,7 +2620,6 @@
 				06446BE91EAC5A8800C0C534 /* WindowsImp.m in Sources */,
 				06446C321EACF56000C0C534 /* DecoratorViewController.m in Sources */,
 				06446C231EACF34600C0C534 /* DPTextBox.m in Sources */,
-				06446BD31EAB55C900C0C534 /* QuickSort.m in Sources */,
 				067491D11EB334E5003C380D /* FulltimeEmployee.m in Sources */,
 				06446B481EA748C800C0C534 /* Logger.m in Sources */,
 				067491C01EB32C7F003C380D /* CurrentAccount.m in Sources */,
@@ -2652,6 +2648,7 @@
 				06446CE81EB0300200C0C534 /* DPNode.m in Sources */,
 				06446B961EA7699900C0C534 /* LoadBalancer.m in Sources */,
 				06446C1D1EACF2E300C0C534 /* Component.m in Sources */,
+				067494C21EBB0638003C380D /* WeeklyLog.m in Sources */,
 				06446D5B1EB1F0C500C0C534 /* MementoCaretaker.m in Sources */,
 				06446C3E1EAD925300C0C534 /* DPCipherMachine.m in Sources */,
 				06446C7C1EAEE28E00C0C534 /* PurchaseRequest.m in Sources */,
@@ -2680,15 +2677,18 @@
 				06A7EB4A1E9CE3870054D69D /* DesignPatternViewModel.m in Sources */,
 				06446CDF1EAF555A00C0C534 /* ActionNode.m in Sources */,
 				067491811EB2EC52003C380D /* Account.m in Sources */,
+				067494D01EBB0675003C380D /* OperationAdapter.m in Sources */,
 				067491911EB2EE40003C380D /* DPSwitch.m in Sources */,
 				06446B411EA738F500C0C534 /* DesignPatternVCFactory.m in Sources */,
 				0674919A1EB3167D003C380D /* DPScreenLargerState.m in Sources */,
 				06446C6B1EADDF6900C0C534 /* AccessValidator.m in Sources */,
+				067494D11EBB0675003C380D /* ScoreOperation.m in Sources */,
 				06446AD21EA7138200C0C534 /* HistogramChart.m in Sources */,
 				06446BF21EAC5B5700C0C534 /* DPJPGImage.m in Sources */,
 				06446D401EB1D14800C0C534 /* DPMComponent.m in Sources */,
 				06446CE21EAF555A00C0C534 /* InstructionHandler.m in Sources */,
 				067491E01EB336DE003C380D /* EmployeeList.m in Sources */,
+				067494CE1EBB0675003C380D /* BinarySearch.m in Sources */,
 				067491D41EB33507003C380D /* ParttimeEmployee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
