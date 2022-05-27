@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DesignPatternViewModel.h"
 
 typedef NS_ENUM(NSUInteger, kDesignType) {
     kDesignTypeCreate,    //创建型
@@ -42,5 +43,7 @@ typedef NS_ENUM(NSUInteger, kDesignType) {
  使用频率, 1-5
  */
 @property (nonatomic, assign) NSInteger useFrequency;
+
++ (NSArray *)parseDesignPatternPlistFile;
 
 @end

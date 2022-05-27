@@ -7,6 +7,7 @@
 //
 
 #import "DesignPatternViewModel.h"
+#import "DesignPatternModel.h"
 
 NSString * const DesignPatternTypeKey = @"DesignPatternTypeKey";
 NSString * const DesignPatternsKey = @"DesignPatternsKey";

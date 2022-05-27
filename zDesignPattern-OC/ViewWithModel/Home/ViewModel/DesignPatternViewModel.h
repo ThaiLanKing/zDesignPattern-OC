@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DesignPatternModel.h"
+
+@class DesignPatternModel;
 
 extern NSString * const DesignPatternTypeKey;
 extern NSString * const DesignPatternsKey;
