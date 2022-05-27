@@ -44,6 +44,7 @@
     
     NSLog(@"================");
     NSLog(@"优化升级，省略Director");
+    // Director有个应用场景就是生成混合actor时可以使用，比如两个actor混血生成一个新Actor就可以使用Director操作
     HeroBuilder *heroBuilder = [[HeroBuilder alloc] init];
     Actor *hero = [heroBuilder construct];
     [hero description];
